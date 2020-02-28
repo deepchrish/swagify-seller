@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
-    <g fill="none" fill-rule="evenodd">
-        <path fill="#FFF" fill-opacity="0" d="M0 0H72V72H0z"/>
-        <circle cx="36" cy="36" r="36" fill="#F99B1D"/>
-        <path fill="#FFF" fill-rule="nonzero" d="M29.438 18.345l23.774 16.43c.413.268.638.727.638 1.225 0 .498-.225.957-.638 1.226l-23.775 16.43c-.262.153-.525.23-.825.23-.224 0-.45-.077-.674-.192-.488-.268-.788-.766-.788-1.303v-32.82c0-.537.3-1.035.787-1.303.488-.268 1.05-.23 1.5.077z"/>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72"><g fill="none" fill-rule="evenodd"><path fill="#FFF" fill-opacity="0" d="M0 0H72V72H0z"/><circle cx="36" cy="36" r="36" fill="#F99B1D"/><path fill="#FFF" fill-rule="nonzero" d="M29.438 18.345l23.774 16.43c.413.268.638.727.638 1.225 0 .498-.225.957-.638 1.226l-23.775 16.43c-.262.153-.525.23-.825.23-.224 0-.45-.077-.674-.192-.488-.268-.788-.766-.788-1.303v-32.82c0-.537.3-1.035.787-1.303.488-.268 1.05-.23 1.5.077z"/></g></svg>

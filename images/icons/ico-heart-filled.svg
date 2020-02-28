@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="20px" height="18px" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
-    <title>ico-heart-filled</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Icons-and-Colors" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Heart-Filled" transform="translate(-2.000000, -3.000000)">
-            <g id="ico-heart-filled" transform="translate(0.000000, -0.000000)">
-                <g id="ico-heart">
-                    <rect id="Rectangle" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="24" height="24"></rect>
-                    <g id="heart" transform="translate(2.000000, 3.000000)" fill="#222F3E" fill-rule="nonzero">
-                        <path d="M14.4285714,0.0408163265 C15.877551,0.0408163265 17.2244898,0.591836735 18.244898,1.6122449 C19.2653061,2.6122449 19.8163265,3.97959184 19.877551,5.44897959 C19.877551,6.89795918 19.3061224,8.26530612 18.3061224,9.26530612 L18.3061224,9.26530612 L17.3061224,10.2653061 L13.877551,13.7346939 L10.0612245,17.5510204 L6.24489796,13.7346939 L6.20408163,13.6938776 L5,12.4897959 L1.7755102,9.26530612 C-0.346938776,7.14285714 -0.346938776,3.71428571 1.7755102,1.6122449 C2.79591837,0.612244898 4.14285714,0.0612244898 5.59183673,0.0612244898 C6.97959184,0.0612244898 8.36734694,0.632653061 9.3877551,1.6122449 L9.3877551,1.6122449 L10,2.2244898 L10.6122449,1.6122449 C11.6122449,0.591836735 12.9795918,0.0408163265 14.4285714,0.0408163265 Z" id="Shape"></path>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="18" version="1.1" viewBox="0 0 20 18"><title>ico-heart-filled</title><desc>Created with Sketch.</desc><g id="Icons-and-Colors" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1"><g id="Heart-Filled" transform="translate(-2.000000, -3.000000)"><g id="ico-heart-filled" transform="translate(0.000000, -0.000000)"><g id="ico-heart"><rect id="Rectangle" width="24" height="24" x="0" y="0" fill="#FFF" fill-opacity="0"/><g id="heart" fill="#222F3E" fill-rule="nonzero" transform="translate(2.000000, 3.000000)"><path id="Shape" d="M14.4285714,0.0408163265 C15.877551,0.0408163265 17.2244898,0.591836735 18.244898,1.6122449 C19.2653061,2.6122449 19.8163265,3.97959184 19.877551,5.44897959 C19.877551,6.89795918 19.3061224,8.26530612 18.3061224,9.26530612 L18.3061224,9.26530612 L17.3061224,10.2653061 L13.877551,13.7346939 L10.0612245,17.5510204 L6.24489796,13.7346939 L6.20408163,13.6938776 L5,12.4897959 L1.7755102,9.26530612 C-0.346938776,7.14285714 -0.346938776,3.71428571 1.7755102,1.6122449 C2.79591837,0.612244898 4.14285714,0.0612244898 5.59183673,0.0612244898 C6.97959184,0.0612244898 8.36734694,0.632653061 9.3877551,1.6122449 L9.3877551,1.6122449 L10,2.2244898 L10.6122449,1.6122449 C11.6122449,0.591836735 12.9795918,0.0408163265 14.4285714,0.0408163265 Z"/></g></g></g></g></g></svg>

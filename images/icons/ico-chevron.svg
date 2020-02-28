@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="8px" viewBox="0 0 15 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>ico-chevron</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons-and-Colors" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="chevron" transform="translate(-4.000000, -8.000000)">
+            <g id="ico-chevron" transform="translate(0.000000, 0.000000)">
+                <g>
+                    <rect id="icon-container" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="24" height="24"></rect>
+                    <g id="chevron-down" transform="translate(4.000000, 8.000000)" fill="#006FBB" fill-rule="nonzero">
+                        <path d="M0.215384615,0.861538462 L7.04615385,7.66153846 C7.18461538,7.8 7.36923077,7.86153846 7.55384615,7.86153846 C7.73846154,7.86153846 7.92307692,7.78461538 8.06153846,7.66153846 L14.8615385,0.861538462 C15.0307692,0.692307692 15.0307692,0.430769231 14.8615385,0.261538462 C14.7846154,0.184615385 14.6769231,0.138461538 14.5692308,0.138461538 C14.4615385,0.138461538 14.3538462,0.184615385 14.2769231,0.261538462 L7.55384615,6.96923077 L0.815384615,0.261538462 C0.646153846,0.0923076923 0.384615385,0.0923076923 0.215384615,0.261538462 C0.0461538462,0.430769231 0.0461538462,0.692307692 0.215384615,0.861538462 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

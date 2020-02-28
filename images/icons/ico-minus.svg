@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>ico-minus</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons-and-Colors" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Minus" transform="translate(-2.000000, -3.000000)">
+            <g id="ico-minus" transform="translate(0.000000, -0.000000)">
+                <g>
+                    <rect id="Rectangle" fill-opacity="0" fill="#FFFFFF" x="0" y="1" width="24" height="24"></rect>
+                    <path d="M12,3 C17.5228475,3 22,7.4771525 22,13 C22,18.5228475 17.5228475,23 12,23 C6.4771525,23 2,18.5228475 2,13 C2,7.4771525 6.4771525,3 12,3 Z M19.5903614,12.2068273 L4.22891566,12.2068273 C3.90763052,12.2068273 3.66666667,12.4678715 3.66666667,12.7690763 C3.66666667,13.0702811 3.90763052,13.3313253 4.22891566,13.3313253 L4.22891566,13.3313253 L19.5903614,13.3313253 C19.8915663,13.3313253 20.1526104,13.0903614 20.1526104,12.7690763 C20.1526104,12.4477912 19.8915663,12.2068273 19.5903614,12.2068273 L19.5903614,12.2068273 Z" id="Combined-Shape" fill="#222F3E"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -48,7 +48,9 @@ body {
 .sw-text-muted {
     color: #747d8c;
 }
-
+.sw-img-muted{
+    filter: grayscale(50);
+}
 .bg-white {
     background-color: #ffffff;
 }
@@ -2274,7 +2276,7 @@ body {
     img {
         transform: rotate(90deg);
         position: relative;
-        bottom: 2px;
+        bottom: 0px;
     }
 }
 
@@ -2332,10 +2334,7 @@ body {
     }
 }
 
-
-
 /* Mark input boxes that gets an error on validation: */
-
 
 .select-wizard {
     position: relative;
@@ -2757,8 +2756,6 @@ body {
 
 //Storehub Add Etsy CSS START
 
-
-
 .sw-connect-steps {
     line-height: 28px;
 
@@ -2800,9 +2797,15 @@ body {
         }
     }
 }
-
+.sw-close{
+    transform: rotate(135deg);
+    cursor: pointer;
+    margin: 20px 20px 0 0;
+}
 
 //Storehub Add Etsy CSS END
+
+
 
 //RESPONSIVE CSS START
 @media only screen and (min-width: 768px) {}

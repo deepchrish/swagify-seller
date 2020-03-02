@@ -6899,6 +6899,9 @@ body {
 .sw-text-muted {
   color: #747d8c;
 }
+.sw-img-muted {
+  filter: grayscale(50);
+}
 .bg-white {
   background-color: #ffffff;
 }
@@ -8648,7 +8651,7 @@ body {
 .sw-backtopage img {
   transform: rotate(90deg);
   position: relative;
-  bottom: 2px;
+  bottom: 0px;
 }
 /* Style the form */
 #regForm {
@@ -9045,6 +9048,11 @@ body {
   left: 0;
   right: 0;
   margin: 0 auto;
+}
+.sw-close {
+  transform: rotate(135deg);
+  cursor: pointer;
+  margin: 20px 20px 0 0;
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Medium devices (desktops, 992px and up) */

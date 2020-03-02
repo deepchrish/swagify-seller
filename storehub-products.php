@@ -9,9 +9,7 @@ include 'navbar.php';
   <div class="container-fluid">
     <div class="row sw-dash-landing mt-3">
       <div class="col-md-12">
-        <div>
-          <a href="#" class="sw-text-muted"> <i class="mdi mdi-chevron-left"></i> Storehubs</a>
-        </div>
+      <div class="sw-backtopage pr-5"><a href="index.php" class="sw-text-muted"><img src="images/icons/ico-chevron.svg" class="pr-2 sw-img-muted">Storehubs</a></div>
         <h2 class="mt-2 mb-4">Jenny & Jill Clothing</h2>
       </div>
     </div>
@@ -23,13 +21,13 @@ include 'navbar.php';
             <div class="row sw-search-input px-4 py-4">
               <div class="col-xs-12 col-sm-6 col-md-6">
                 <div class="form-inline">
-                  <div class="form-group search-icon">
-                    <label class=" sr-only" for="exampleInputEmail3">Email address</label>
-                    <input type="Search" class="form-control" id="exampleInputEmail3" placeholder="Search Products">
+                  <div class="form-group search-icon mr-2">
+                    <label class="sr-only" for="search"></label>
+                    <input type="Search" class="form-control" id="search" placeholder="Search Products">
                   </div>
                   <div class="form-group">
-                    <label class="sr-only" for="exampleInputPassword3">Password</label>
-                    <select class="form-control" id="exampleInputPassword3">
+                    <label class="sr-only" for="allstores"></label>
+                    <select class="form-control" id="allstores">
                       <option>All Stores</option>
                       <option>Shopify</option>
                       <option>Etsy</option>

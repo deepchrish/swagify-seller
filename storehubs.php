@@ -9,9 +9,10 @@ include 'navbar.php';
   <div class="container-fluid">
     <div class="row sw-dash-landing mt-3">
       <div class="col-md-12">
-        <div>
-          <a href="#" class="sw-text-muted"> <i class="mdi mdi-chevron-left"></i> Storehubs</a>
-        </div>
+      <div class="sw-backtopage"><a href="index.php" class="sw-text-muted"><img src="images/icons/ico-chevron.svg" class="pr-2 sw-img-muted">Storehubs</a></div>
+        <!-- <div>
+          <a href="#" class="sw-text-muted"> <i class="mdi mdi-chevron-left"></i> </a>
+        </div> -->
         <h2 class="mt-2 mb-4">Jenny & Jill Clothing</h2>
       </div>
     </div>
@@ -55,7 +56,7 @@ include 'navbar.php';
                       <li><a href="#">Store settings</a></li>
                       </ul>
                     </div>
-                    <a class="btn btn-primary sw-plus-ico pl-4 pr-5 py-2 w-auto" href="#">
+                    <a class="btn btn-primary sw-plus-ico pl-4 pr-5 py-2 w-auto" href="storehub-manage-stores.php" target="_blank">
                       <img src="./images/icons/ico-plus.svg" class="img-responsive mr-3" alt="plus icon">
                       Store
                     </a>

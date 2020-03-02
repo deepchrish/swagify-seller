@@ -22,14 +22,23 @@ body {
     font-size: 16px;
     /* padding: 8px 25px 8px 25px; */
     width: 149px;
+
+    &:hover {
+        background-image: linear-gradient(to bottom, #4f3186, #432775);
+    }
 }
 
 .btn-default {
-    // width: 149px;
-    border-radius: 4px;
-    font-size: 14px;
+    width: 149px;
+    font-size: 16px;
+    border-radius: 3px;
     box-shadow: 0 1px 0 0 rgba(22, 29, 37, 0.05);
     border: solid 1px #c4cdd5;
+    background-image: linear-gradient(to bottom, #ffffff, #f9fafb);
+
+    &:hover {
+        background-image: linear-gradient(to bottom, #e0e0e0, #f1f1f1)
+    }
 }
 
 .sw-premium-btn {
@@ -2112,9 +2121,79 @@ body {
     }
 }
 
-
-
 //Custom Checkbox CSS END
+
+// Custom radio buttons for single product page START
+.sw-pro-radio {
+    li {
+        margin: 5px 10px 5px 0;
+
+        .custom-radio {
+            .custom-control-input {
+                display: none;
+            }
+
+            .custom-control-label {
+                margin-bottom: 0;
+                position: absolute;
+                z-index: 1;
+                left: 0;
+                top: 0;
+                text-align: center;
+                margin: 0 auto;
+                color: #747d8c;
+                width: 3.5rem;
+                min-width: 3.5rem;
+                height: 3.5rem;
+                border-radius: 100%;
+                display: flex;
+                align-items: center;
+                align-content: center;
+                opacity: 0.8;
+                line-height: 1.3;
+
+                &::before {
+                    top: 0;
+                    left: 0;
+                    width: 3.5rem;
+                    height: 3.5rem;
+                    background-color: #fff;
+                    border: 2px solid #e0e0e0;
+                    border-radius: 50%;
+                    z-index: -1;
+                }
+
+                &::after {
+                    top: 0;
+                    left: 0;
+                    width: 3.5rem;
+                    height: 3.5rem;
+                    border-radius: 50%;
+                    z-index: -1;
+                }
+
+            }
+
+            .custom-control-input:checked~.custom-control-label::before {
+                color: #222f3e;
+                background-color: #ffffff;
+                opacity: 1;
+            }
+
+            .custom-control-input:checked~.custom-control-label::after {
+                border: 2px solid #222f3e;
+                opacity: 1;
+            }
+
+            .custom-control-input:checked~.custom-control-label {
+                color: #222f3e;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+// Custom radio buttons for single product page END
 
 /* Signup Page */
 
@@ -2597,9 +2676,9 @@ body {
 }
 
 .sw-custm-dropdown {
-    padding: 7px 14px;
-    box-shadow: 0 1px 0 0 rgba(22, 29, 37, 0.05);
-    border: 1px solid #c4cdd5;
+    // padding: 7px 14px;
+    // box-shadow: 0 1px 0 0 rgba(22, 29, 37, 0.05);
+    // border: 1px solid #c4cdd5;
 
     img {
         display: inline;
@@ -2713,6 +2792,11 @@ body {
         padding: 12px;
         vertical-align: middle;
         line-height: 1.528571;
+
+        a {
+            width: auto;
+            font-size: 14px;
+        }
     }
 
     tbody>tr>td:last-child>a {
@@ -2924,17 +3008,17 @@ body {
         margin: 0;
         flex-basis: 100%;
 
-        &:nth-child(3) {
-            margin: 0;
-        }
+        // &:nth-child(3) {
+        //     margin: 0;
+        // }
     }
 
     img {
-        height: 10rem;
+        height: 7rem;
         width: 100%;
         margin: 0 0 10px;
         border: 1px solid #ddd;
-        object-fit: cover;
+        object-fit: contain;
         transition: opacity 0.2s ease;
         cursor: pointer;
         opacity: 0.4;
@@ -2961,6 +3045,10 @@ body {
     to {
         opacity: 1;
     }
+}
+
+.sw-pro-info {
+    line-height: 27px;
 }
 
 // single Product page END
@@ -3173,6 +3261,21 @@ body {
     .sw-bg {
         background: transparent;
     }
+
+    .product-gallery {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .image-list {
+        display: inline-flex;
+        margin: 10px 0;
+
+        li {
+            display: inline-block;
+            margin: 0 5px;
+        }
+    }
 }
 
 @media only screen and (max-width: 575px) {
@@ -3225,6 +3328,15 @@ body {
     .sw-welcome-store .sw-txt-margin {
         margin: 0;
         font-size: 14px;
+    }
+
+    .product-image {
+        img {
+            height: auto;
+            width: 100%;
+            max-height: 250px;
+            object-fit: contain;
+        }
     }
 }
 

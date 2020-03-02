@@ -55,7 +55,7 @@ include 'navbar.php';
                         <li><a href="#">Store settings</a></li>
                       </ul>
                     </div>
-                    <a class="btn btn-primary sw-plus-ico pl-4 pr-5 py-2 w-auto" href="#">
+                    <a class="btn btn-primary sw-plus-ico pl-4 pr-5 py-2 w-auto" href="storehub-manage-stores.php" target="_blank">
                       <img src="./images/icons/ico-plus.svg" class="img-responsive mr-3" alt="plus icon">
                       Store
                     </a>

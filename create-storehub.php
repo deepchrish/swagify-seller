@@ -5,7 +5,7 @@ include 'header.php';
 ?>
 <section class="mt-5">
     <div class="container-fluid">
-        <div class="pr-4 sw-backtopage"><a href="index.php"><img src="images/icons/ico-chevron.svg"> Back</a></div>
+        <div class="sw-backtopage"><a href="index.php"><img src="images/icons/ico-chevron.svg" class="pr-2"> Back</a></div>
     </div>
     <div class="text-center m-auto">
         <h3>New Storehub</h3>
@@ -45,7 +45,7 @@ include 'header.php';
                             <label for="asgnmnt_file"><img class="mr-2" src="images/icons/ico-plus.svg"
                                     oninput="this.className = ''"> Upload</label>
                         </div>
-                        <div class="my-3 ">
+                        <div class="my-3">
                             <input type="text" placeholder="Storehub Name" oninput="this.className = ''">
                             <small class="sw-text-muted">Give your storehub a suitable name e.g. <i
                                     class="text-dark">John Doe’s Sweatshirts</i></small>

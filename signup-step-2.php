@@ -356,7 +356,6 @@ include 'header.php';
                                         placeholder="https://">
                                 </div>
                             </div>
-
                         </div>
                         <hr>
                         <div class="text-center">

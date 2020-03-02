@@ -8488,11 +8488,11 @@ body {
 }
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
   content: '\2713';
-  color: #bfbfbf;
-  font-size: 20px;
+  color: #ffffff;
+  font-size: 16px;
   position: absolute;
-  top: -2px;
-  left: 3px;
+  top: -1.5px;
+  left: 2px;
 }
 .sw-colors-list .custom-control {
   min-height: 0;
@@ -8503,6 +8503,14 @@ body {
 }
 .sw-colors-list .custom-control .custom-control-input:checked ~ .custom-control-label::before {
   background-color: transparent;
+}
+.sw-colors-list .custom-control .custom-control-input:checked ~ .custom-control-label::after {
+  content: '\2713';
+  color: #d0d0d0;
+  font-size: 20px;
+  position: absolute;
+  top: -2px;
+  left: 3px;
 }
 .sw-colors-list .custom-control .box-sd-color {
   display: inline-block;
@@ -8688,7 +8696,7 @@ body {
 .sw-backtopage img {
   transform: rotate(90deg);
   position: relative;
-  bottom: 2px;
+  bottom: 0px;
 }
 /* Style the form */
 #regForm {
@@ -9098,6 +9106,11 @@ body {
   left: 0;
   right: 0;
   margin: 0 auto;
+}
+.sw-close {
+  transform: rotate(135deg);
+  cursor: pointer;
+  margin: 20px 20px 0 0;
 }
 .product-image {
   display: none;

@@ -5,9 +5,10 @@ include 'header.php';
 ?>
 <section class="mt-5">
     <div class="container-fluid">
-        <div class="pr-4 sw-backtopage"><a href="#" id="close-window"><img src="images/icons/ico-chevron.svg"> Add a new store</a>
+        <div class="sw-backtopage">
+            <a href="#" id="close-window" class="sw-text-muted"><img src="images/icons/ico-chevron.svg" class="pr-2 sw-img-muted"> Add a new store</a>
         </div>
-        <div>
+        <div class="hidden-xs visible">
             <h2>Etsy</h2>
         </div>
 
@@ -19,7 +20,11 @@ include 'header.php';
                             <div class="d-flex d-block">
                                 <img src="./images/logo/etsy-logo.png" class="img-responsive etsy-logo mr-md-3"
                                     alt="etsy logo">
-                                <div class="pt-4 pt-sm-0">
+
+                                <div class="visible-xs hidden-sm">
+                                    <h2>Etsy</h2>
+                                </div>
+                                <div class="pt-3 pt-md-0">
                                     <p>
                                         Etsy is the global marketplace for unique and creative goods. It’s home to a
                                         universe of special, extraordinary items, from unique handcrafted pieces to
@@ -29,7 +34,6 @@ include 'header.php';
                                     <div> <a class="btn btn-primary mt-3" href="#">Connect Store </a></div>
                                 </div>
                             </div>
-                            <div></div>
                         </div>
 
                         <div class="col-md-4">
@@ -88,13 +92,12 @@ include 'header.php';
 
 </section>
 
-
+<script type="text/javascript">
+    document.getElementById("close-window").addEventListener("click", function () {
+        window.close();
+    });
+</script>
 
 <?php
 include 'footer.php';
 ?>
-<script type="text/javascript">
-  document.getElementById("close-window").addEventListener("click", function(){ 
-       window.close();
-   });
-</script>

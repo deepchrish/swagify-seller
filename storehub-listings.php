@@ -20,9 +20,9 @@ include 'navbar.php';
             <div class="row sw-search-input px-4 py-4">
               <div class="col-xs-12 col-sm-6 col-md-6">
                 <div class="form-inline">
-                  <div class="form-group search-icon">
-                    <label class=" sr-only" for="exampleInputEmail3">Email address</label>
-                    <input type="Search" class="form-control" id="exampleInputEmail3" placeholder="Search Products">
+                  <div class="form-group search-icon mr-2">
+                    <label class=" sr-only" for="search"></label>
+                    <input type="Search" class="form-control" id="search" placeholder="Search Products">
                   </div>
                   <div class="form-group">
                     <label class="sr-only" for="exampleInputPassword3">Password</label>

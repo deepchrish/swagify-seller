@@ -10,7 +10,7 @@ include 'navbar.php';
     <div class="row sw-dash-landing mt-3">
       <div class="col-md-12">
         <div>
-          <a href="#" class="sw-text-muted"> <i class="mdi mdi-chevron-left"></i> Storehubs</a>
+          <a href="storehub-listings.php" class="sw-text-muted"> <i class="mdi mdi-chevron-left"></i> Storehubs</a>
         </div>
         <h2 class="mt-2 mb-4">Jenny & Jill Clothing</h2>
       </div>

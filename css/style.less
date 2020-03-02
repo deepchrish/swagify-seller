@@ -32,6 +32,10 @@ body {
     border: solid 1px #c4cdd5;
 }
 
+.sw-premium-btn {
+    background-image: linear-gradient(to bottom, #f8e300, #f0ca1f);
+}
+
 .sw-disabled {
     filter: opacity(0.5);
     cursor: not-allowed;
@@ -49,8 +53,24 @@ body {
     color: #747d8c;
 }
 
+.sw-text-dark {
+    color: #222f3e;
+}
+
 .bg-white {
     background-color: #ffffff;
+}
+
+.bg-navy {
+    background-image: linear-gradient(to right, #16325c 0%, #183b70 100%);
+}
+
+.sw-text-white {
+    color: #ffffff;
+}
+
+.sw-text-yellow {
+    color: #eec200;
 }
 
 .box-shadow {
@@ -2044,12 +2064,46 @@ body {
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::after {
     content: '\2713';
-    color: #ffffff;
-    font-size: 16px;
+    color: #bfbfbf;
+    font-size: 20px;
     position: absolute;
-    top: -1px;
-    left: 2px;
+    top: -2px;
+    left: 3px;
 }
+
+.sw-colors-list {
+    .custom-control {
+        min-height: 0;
+        padding-left: 0;
+
+        .custom-control-label::before {
+            border-radius: 50% !important;
+        }
+
+        .custom-control-input:checked~.custom-control-label::before {
+            background-color: transparent;
+        }
+
+        .box-sd-color {
+            display: inline-block;
+            width: 2.5rem;
+            height: 2.5rem;
+            border: solid 1px rgba(224, 224, 224, 0.6);
+            border-radius: 50%;
+            margin: 0;
+            position: absolute;
+            left: -1px;
+            top: -1px;
+            padding: 8px;
+        }
+    }
+
+    li {
+        margin: 8px 20px 8px 0;
+    }
+}
+
+
 
 //Custom Checkbox CSS END
 
@@ -2446,7 +2500,7 @@ body {
 }
 
 
-// assadasdasdasdasdasdasdasdasdasdasdasda
+// upload image
 .sw-upload-img {
     .sw-upload {
         cursor: pointer;
@@ -2576,9 +2630,14 @@ body {
 .sw-store-box {
     box-shadow: inset 0 1px 1px 0 #ecf0f1, inset 0 -1px 1px 0 #ecf0f1, inset 1px 0 1px 0 #ecf0f1, inset -1px 0 1px 0 #ecf0f1;
     min-height: 285px;
+    position: relative;
 
-    p {
-        padding: 0 24% 0 0;
+    // p {
+    //     padding: 0 24% 0 0;
+    // }
+    .storehubb-btns {
+        position: relative;
+        bottom: -5px;
     }
 }
 
@@ -2684,28 +2743,35 @@ body {
     }
 }
 
-.sw-pagination  {
+.sw-pagination {
     li {
-        input{
+        input {
             display: inline-block;
             width: 40px;
             float: left;
             height: 35px;
             border: solid 1px #c4cdd5;
+            margin: 0 0 0 -1px;
         }
-        a{
+
+        a {
             border: solid 1px #c4cdd5;
+            height: 35px;
         }
     }
+
     .sw-pagination-numbs {
         background-color: transparent;
         border: none;
+        color: #5a555a;
     }
 }
-.sw-pagination > li > span{
+
+.sw-pagination>li>span {
     padding: 8px 8px;
     margin: 0 1px;
 }
+
 .sw-text {
     position: relative;
     top: 6px;
@@ -2721,25 +2787,27 @@ body {
 //Storehub Listings CSS START
 
 .sw-active {
-    // position: relative;
-    // left: 4px;
-    // top: -1px;
     font-size: 18px;
     color: #50b83c;
     background: rgba(80, 184, 60, 0.21);
     border-radius: 100%;
-    padding: 3px;
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    text-align: center;
+    line-height: 27px;
 }
 
 .sw-inactive {
-    // position: relative;
-    // left: 4px;
-    // top: -1px;
     font-size: 18px;
     color: #de3618;
     background-color: rgba(222, 54, 24, 0.18);
     border-radius: 100%;
-    padding: 3px;
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    text-align: center;
+    line-height: 27px;
 }
 
 .sw-abt-more {
@@ -2803,6 +2871,92 @@ body {
 
 
 //Storehub Add Etsy CSS END
+
+// single Product page START
+.product-image {
+    display: none;
+}
+
+.image-list {
+    li {
+        margin: 0;
+    }
+}
+
+.product-image img,
+.image-list img {
+    width: 100%;
+}
+
+.product-image {
+    display: block;
+
+    img {
+        height: 489px;
+        width: 100%;
+        max-height: 489px;
+        object-fit: cover;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+
+        &.active {
+            display: block;
+            margin: 0;
+        }
+    }
+}
+
+.image-list {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0;
+
+    li {
+        margin: 0;
+        flex-basis: 100%;
+
+        &:nth-child(3) {
+            margin: 0;
+        }
+    }
+
+    img {
+        height: 10rem;
+        width: 100%;
+        margin: 0 0 10px;
+        border: 1px solid #ddd;
+        object-fit: cover;
+        transition: opacity 0.2s ease;
+        cursor: pointer;
+        opacity: 0.4;
+        border-radius: 3px;
+
+        &:hover {
+            opacity: 1;
+            border: 1px solid #593895;
+        }
+    }
+
+    .active {
+        border: 1px solid #593895;
+        opacity: 1;
+    }
+}
+
+
+@keyframes fadeImg {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+// single Product page END
+
+
 
 //RESPONSIVE CSS START
 @media only screen and (min-width: 768px) {}
@@ -2990,9 +3144,9 @@ body {
         color: #fff;
     }
 
-    .sw-store-box p {
-        padding: 0;
-    }
+    // .sw-store-box p {
+    //     padding: 0;
+    // }
 
     .sw-bg p {
         font-size: 14px;

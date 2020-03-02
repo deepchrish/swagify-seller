@@ -107,20 +107,21 @@ include 'navbar.php';
 
                       <td>
                         <div class="d-flex align-items-center">
-                          <img class="" src="./images/avatar-off-white.png" alt="avatar" height="32" width="32">
-                          <div class="ml-4"><span>Off White Co.</span>
-                          </div>
+                          <a class="sw-text-dark" href="jenny-and-jill-clothing-storehubs.php">
+                            <img class="" src="./images/avatar-off-white.png" alt="avatar" height="32" width="32">
+                            <span class="pl-2">Jenny & Jill Clothing</span>
+                          </a>
                         </div>
                       </td>
-                      <td>27 Products</td>
+                      <td><a href="jenny-and-jill-clothing-products.php">27 Products</a></td>
                       <td>
                         <div><i class="mdi mdi-check-circle-outline sw-active mr-2"></i>
                           Active</div>
                       </td>
                       <td>
                         <ul class="total-product mt-1">
-                          <li><img src="./images/logo/shopify.png" title="Shopify logo" alt="Shopify logo"> </li>
-                          <li><img src="./images//logo/etsy.png" title="ETSY logo" alt="ETSY logo">
+                          <li><img src="./images/logo/shopify.png" title="Shopify" alt="Shopify"> </li>
+                          <li><img src="./images//logo/etsy.png" title="ETSY" alt="ETSY">
                           </li>
                           <li><img src="./images/logo/prestashop.png" title="Prestashop" alt="Prestashop"> </li>
                         </ul>
@@ -149,15 +150,16 @@ include 'navbar.php';
 
                       <td>
                         <div class="d-flex align-items-center">
-                          <img src="./images/avatar-billionaire.png" alt="avatar" height="32" width="32">
-                          <div class="ml-4"><span> Billionare Boys Club </span>
-                          </div>
+                          <a class="sw-text-dark" href="#">
+                            <img class="" src="./images/avatar-billionaire.png" alt="avatar" height="32" width="32">
+                            <span class="pl-2">Billionare Boys Club</span>
+                          </a>
                         </div>
                       </td>
                       <td>No Products yet</td>
                       <td>
                         <div>
-                        <i class="mdi mdi-close-circle-outline sw-inactive mr-2"></i>Inactive
+                          <i class="mdi mdi-close-circle-outline sw-inactive mr-2"></i>Inactive
                         </div>
                       </td>
                       <td>
@@ -197,7 +199,7 @@ include 'navbar.php';
                       </td>
                       <td>
                         <ul class="total-product mt-1">
-                          <li><img src="./images/logo/shopify.png" title="Shopify logo" alt="Shopify logo"> </li>
+                          <li><img src="./images/logo/shopify.png" title="Shopify" alt="Shopify"> </li>
                         </ul>
                       </td>
                       <!-- <td>

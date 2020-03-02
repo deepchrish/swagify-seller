@@ -10,7 +10,7 @@ include 'navbar.php';
     <div class="row sw-dash-landing mt-3">
       <div class="col-md-12">
         <div>
-          <a href="#" class="sw-text-muted"> <i class="mdi mdi-chevron-left"></i> Storehubs</a>
+          <a href="storehub-listings.php" class="sw-text-muted"> <i class="mdi mdi-chevron-left"></i> Storehubs</a>
         </div>
         <h2 class="mt-2 mb-4">Jenny & Jill Clothing</h2>
       </div>
@@ -34,9 +34,9 @@ include 'navbar.php';
                 <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 mt-2 mt-sm-4 mt-md-0">
                   <div class="text-center text-md-right">
                     <ul class="total-product mt-1">
-                      <li><img class="img-fluid" src="./images/2-woocommerce.png" title="Woo Commerce logo"
-                          alt="Woo Commerce logo"> </li>
-                      <li><img class="img-fluid" src="./images/2-magento.png" title="Magento logo" alt="Magento logo">
+                      <li><img class="img-fluid" src="./images/2-woocommerce.png" title="Woo Commerce"
+                          alt="Woo Commerce"> </li>
+                      <li><img class="img-fluid" src="./images/2-magento.png" title="Magento" alt="Magento">
                       </li>
                       <li><img class="img-fluid" src="./images/2-etsy.png" title="ETSY" alt="ETSY"> </li>
                       <!--<li>+40 </li>-->
@@ -51,8 +51,8 @@ include 'navbar.php';
                         Settings <span class="caret ml-2"></span>
                       </button>
                       <ul class="dropdown-menu">
-                      <li><a href="#">Storehub settings</a></li>
-                      <li><a href="#">Store settings</a></li>
+                        <li><a href="#">Storehub settings</a></li>
+                        <li><a href="#">Store settings</a></li>
                       </ul>
                     </div>
                     <a class="btn btn-primary sw-plus-ico pl-4 pr-5 py-2 w-auto" href="#">
@@ -89,7 +89,7 @@ include 'navbar.php';
                     your design, We let you save your products in Storehubs, So you can publish the products to other
                     platforms.</p>
                 </div>
-                <div>
+                <div class="storehubb-btns">
                   <a class="btn btn-default mt-3 mb-2" href="#">Try it out now</a>
                 </div>
               </div>
@@ -104,12 +104,14 @@ include 'navbar.php';
                   <p class="sw-text-muted">Your Storehub can connect to multiple stores so you can publish the products
                     you design quick and easy in all the stores at once.</p>
                 </div>
-                <div>
+                <div class="storehubb-btns">
                   <a class="btn btn-default mt-3 mb-2" href="#">Try it out now</a>
                   <a class="btn btn-default mt-3 mb-2" href="#">Connect more</a>
                 </div>
               </div>
-              <br><small><b>Note for Developers :</b> When one or more store is connected then please hide the <b class="btn btn-default disabled">Try it out now</b> button and Display <b class="btn btn-default disabled">Connect more</b> button.</small>
+              <br><small><b>Note for Developers :</b> When one or more store is connected then please hide the <b
+                  class="btn btn-default disabled">Try it out now</b> button and Display <b
+                  class="btn btn-default disabled">Connect more</b> button.</small>
             </div>
           </div>
         </div>
@@ -117,7 +119,6 @@ include 'navbar.php';
     </div>
   </div>
 </div>
-
 
 <?php
 include 'footer.php';

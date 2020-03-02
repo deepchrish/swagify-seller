@@ -10,7 +10,7 @@
         <li class="sidebar-item active"> <a class="sidebar-link" href="index.php"><img
               src="images/icons/ico-home.svg"><span class="hide-menu">Home</span></a>
         </li>
-        <li class="sidebar-item"> <a class="sidebar-link" href="storehubs.php"><img
+        <li class="sidebar-item"> <a class="sidebar-link" href="storehub-listings.php"><img
               src="images/icons/ico-storefront.svg"><span class="hide-menu">Storehubs</span></a>
         </li>
         <li class="sidebar-item"> <a class="sidebar-link" href="#"><img src="images/icons/ico-products.svg"><span

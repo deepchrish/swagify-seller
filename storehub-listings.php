@@ -18,7 +18,7 @@ include 'navbar.php';
         <div class="bg-white box-shadow b-radius-3 pb-4 w-100">
           <form>
             <div class="row sw-search-input px-4 py-4">
-              <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="col-xs-12 col-sm-7 col-md-7">
                 <div class="form-inline">
                   <div class="form-group search-icon mr-2">
                     <label class=" sr-only" for="search"></label>
@@ -35,7 +35,7 @@ include 'navbar.php';
                 </div>
               </div>
 
-              <div class="col-xs-12 col-sm-6 col-md-6  mt-sm-4 mt-md-0">
+              <div class="col-xs-12 col-sm-5 col-md-5 mt-sm-4 mt-md-0">
                 <div class="text-center text-md-right">
                   <a class="btn btn-primary sw-plus-ico pl-4 pr-5 py-2 w-auto" href="#">
                     <img src="./images/icons/ico-plus.svg" class="img-responsive mr-3" alt="plus icon">

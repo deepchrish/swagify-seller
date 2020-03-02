@@ -3,6 +3,7 @@ $title = "Home";
 $pageDescription = "Home page description";
 include 'header.php';
 include 'navbar.php';
+include 'vertical-nav.php';
 ?>
 
     <div class="page-wrapper">

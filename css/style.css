@@ -6880,11 +6880,19 @@ body {
   /* padding: 8px 25px 8px 25px; */
   width: 149px;
 }
+.btn-primary:hover {
+  background-image: linear-gradient(to bottom, #4f3186, #432775);
+}
 .btn-default {
-  border-radius: 4px;
-  font-size: 14px;
+  width: 149px;
+  font-size: 16px;
+  border-radius: 3px;
   box-shadow: 0 1px 0 0 rgba(22, 29, 37, 0.05);
   border: solid 1px #c4cdd5;
+  background-image: linear-gradient(to bottom, #ffffff, #f9fafb);
+}
+.btn-default:hover {
+  background-image: linear-gradient(to bottom, #e0e0e0, #f1f1f1);
 }
 .sw-premium-btn {
   background-image: linear-gradient(to bottom, #f8e300, #f0ca1f);
@@ -8527,6 +8535,62 @@ body {
 .sw-colors-list li {
   margin: 8px 20px 8px 0;
 }
+.sw-pro-radio li {
+  margin: 5px 10px 5px 0;
+}
+.sw-pro-radio li .custom-radio .custom-control-input {
+  display: none;
+}
+.sw-pro-radio li .custom-radio .custom-control-label {
+  margin-bottom: 0;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  text-align: center;
+  margin: 0 auto;
+  color: #747d8c;
+  width: 3.5rem;
+  min-width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  opacity: 0.8;
+  line-height: 1.3;
+}
+.sw-pro-radio li .custom-radio .custom-control-label::before {
+  top: 0;
+  left: 0;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 50%;
+  z-index: -1;
+}
+.sw-pro-radio li .custom-radio .custom-control-label::after {
+  top: 0;
+  left: 0;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  z-index: -1;
+}
+.sw-pro-radio li .custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+  color: #222f3e;
+  background-color: #ffffff;
+  opacity: 1;
+}
+.sw-pro-radio li .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+  border: 2px solid #222f3e;
+  opacity: 1;
+}
+.sw-pro-radio li .custom-radio .custom-control-input:checked ~ .custom-control-label {
+  color: #222f3e;
+  opacity: 1;
+}
 /* Signup Page */
 .sw-formarea h1 {
   font-size: 38px;
@@ -9000,6 +9064,10 @@ body {
   vertical-align: middle;
   line-height: 1.528571;
 }
+.sw-table tbody > tr > td a {
+  width: auto;
+  font-size: 14px;
+}
 .sw-table tbody > tr > td:last-child > a {
   text-decoration: none;
 }
@@ -9154,15 +9222,12 @@ body {
   margin: 0;
   flex-basis: 100%;
 }
-.image-list li:nth-child(3) {
-  margin: 0;
-}
 .image-list img {
-  height: 10rem;
+  height: 7rem;
   width: 100%;
   margin: 0 0 10px;
   border: 1px solid #ddd;
-  object-fit: cover;
+  object-fit: contain;
   transition: opacity 0.2s ease;
   cursor: pointer;
   opacity: 0.4;
@@ -9183,6 +9248,9 @@ body {
   to {
     opacity: 1;
   }
+}
+.sw-pro-info {
+  line-height: 27px;
 }
 .sw-order-soon {
   position: relative;
@@ -9378,8 +9446,17 @@ body {
   .sw-bg {
     background: transparent;
   }
-  .sw-order-soon span {
-    right: 38%;
+  .product-gallery {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  .image-list {
+    display: inline-flex;
+    margin: 10px 0;
+  }
+  .image-list li {
+    display: inline-block;
+    margin: 0 5px;
   }
 }
 @media only screen and (max-width: 575px) {
@@ -9421,8 +9498,11 @@ body {
     margin: 0;
     font-size: 14px;
   }
-  .sw-order-soon span {
-    right: 32%;
+  .product-image img {
+    height: auto;
+    width: 100%;
+    max-height: 250px;
+    object-fit: contain;
   }
 }
 @media only screen and (max-width: 360px) {

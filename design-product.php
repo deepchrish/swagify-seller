@@ -17,11 +17,11 @@ include 'navbar.php';
             </div>
             <div class="sw-steps mt-5 mb-4">
                 <ul class="list-inline">
-                    <li class="step"><img class="mr-2 mb-2" src="images/icons/ico-checkbox.svg">Pricing and Overview
+                    <li class="step"><img class="mr-sm-2 mb-2" src="images/icons/ico-checkbox.svg">Pricing and Overview
                     </li>
-                    <li class="step"><img class="mr-2 mb-2" src="images/icons/ico-checkbox.svg">Product Description
+                    <li class="step"><img class="mr-sm-2 mb-2" src="images/icons/ico-checkbox.svg">Product Description
                     </li>
-                    <li class="step"><img class="mr-2 mb-2" src="images/icons/ico-checkbox.svg">Storehub and Publish
+                    <li class="step"><img class="mr-sm-2 mb-2" src="images/icons/ico-checkbox.svg">Storehub and Publish
                     </li>
                     <!-- <li class="step"><img class="p-2" src="images/icons/ico-checkbox.svg">Connect Stores</li> -->
                 </ul>
@@ -36,87 +36,104 @@ include 'navbar.php';
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12 px-2">
-                        <form class="row sw-product-form"  action="index.php">
+                        <form class="row sw-product-form" action="index.php">
 
                             <!-- One "tab" for each step in the form: -->
                             <div class="tab col-sm-12 col-xs-12 p-0">
-                                <!-- Table START-->
-                                <div class="table-responsive">
-                                    <table class="table table-hover sw-product-table mb-0">
-                                        <thead>
-                                            <tr>
-                                                <th></th>
-                                                <th class="text-uppercase">Variants
-                                                </th>
-                                                <th class="text-uppercase">Print File
-                                                </th>
-                                                <th class="text-uppercase">Avg. Price</th>
-                                                <th class="text-uppercase">Retail price <span class="text-danger">*</span></th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <div><span class="dark-circle">1</span></div>
-                                                </td>
-                                                <td>
-                                                    <div class="d-flex align-items-center">
-                                                        <a href="#"><img src="./images/women-white-t-shirt.png"
-                                                                alt="white"></a>
-                                                        <div class="ml-4 mb-4"> <a href="#" class="sw-text-dark"><span>
-                                                                    <b>Unisex Ringer Tee</b>
-                                                                </span></a><br>
-                                                            <span class="sw-text-muted">Generic brand PC54R </span><br>
-                                                            T-Shirt by Canadian Apparel <br>
-                                                            <span class="sw-text-muted"> Color: <small
-                                                                    class="small-color-circle"
-                                                                    style="background: #100c0c;"></small>Dark
-                                                                Grey</span> <br>
-                                                            <span class="sw-text-muted">Size: <small>
-                                                                    Meduim</small></span>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="d-flex">
-                                                        <div class="sw-pro-art-img">
-                                                            <img src="./images/front-print-mock.png" alt="print mock">
-                                                            <span>Front</span>
-                                                        </div>
-                                                        <div class="sw-pro-art-img">
-                                                            <img src="./images/print-mockup.png" alt="print mock">
-                                                            <span>Mockup</span>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td><b>$6.95 to $13.80</b></td>
-                                                <td>
-                                                    <form class="form-inline">
-                                                        <div class="form-group">
-                                                            <label class="sr-only" for="amount"></label>
-                                                            <div class="input-group">
-                                                                <div class="input-group-addon">
-                                                                    <img src="./images/icons/ico-dollar.svg">
-                                                                </div>
-                                                                <input type="text" class="form-control"
-                                                                    id="amount" placeholder="16.80">
+                                <div>
+                                    <!-- Table START-->
+                                    <div class="table-responsive">
+                                        <table class="table table-hover sw-product-table mb-0">
+                                            <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th class="text-uppercase">Variants
+                                                    </th>
+                                                    <th class="text-uppercase">Print File
+                                                    </th>
+                                                    <th class="text-uppercase">Avg. Price</th>
+                                                    <th class="text-uppercase">Retail price <span
+                                                            class="text-danger">*</span></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div><span class="dark-circle">1</span></div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <a href="#"><img src="./images/women-white-t-shirt.png"
+                                                                    alt="white"></a>
+                                                            <div class="ml-4 mb-4"> <a href="#"
+                                                                    class="sw-text-dark"><span>
+                                                                        <b>Unisex Ringer Tee</b>
+                                                                    </span></a><br>
+                                                                <span class="sw-text-muted">Generic brand PC54R
+                                                                </span><br>
+                                                                T-Shirt by Canadian Apparel <br>
+                                                                <span class="sw-text-muted"> Color: <small
+                                                                        class="small-color-circle"
+                                                                        style="background: #100c0c;"></small>Dark
+                                                                    Grey</span> <br>
+                                                                <span class="sw-text-muted">Size: <small>
+                                                                        Meduim</small></span>
                                                             </div>
                                                         </div>
-                                                        <img src="./images/icons/ico-help.svg">
-                                                    </form>
-                                                    
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                                    </td>
+                                                    <td class="w-25">
+                                                        <div class="d-flex">
+                                                            <ul class="list-unstyled sw-pro-list">
+                                                                <li>
+                                                                    <div class="sw-pro-art-img">
+                                                                        <img src="./images/front-print-mock.png"
+                                                                            alt="print mock">
+                                                                        <span>Front</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="sw-pro-art-img">
+                                                                        <img src="./images/print-mockup.png"
+                                                                            alt="print mock">
+                                                                        <span>Mockup</span>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+
+                                                    </td>
+                                                    <td><b>$6.95 to $13.80</b></td>
+                                                    <td>
+                                                        <form class="form-inline">
+                                                            <div class="form-group mr-2">
+                                                                <label class="sr-only" for="amount"></label>
+                                                                <div class="input-group">
+                                                                    <div class="input-group-addon">
+                                                                        <img src="./images/icons/ico-dollar.svg">
+                                                                    </div>
+                                                                    <input type="text" class="form-control" id="amount"
+                                                                        placeholder="16.80">
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                        <img src="./images/icons/ico-help.svg" alt="help ico"
+                                                            data-toggle="tooltip" data-placement="top" title="Help">
+                                                    </td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <!-- Table END -->
                                 </div>
-                                <!-- Table END -->
 
                                 <div class="row py-4">
                                     <div class="sw-action col-md-12">
                                         <div class="sw-btn-group">
-                                            <button type="button" class="btn btn-default" id="prevBtn"
-                                                onclick="nextPrev(-1)">Previous</button>
+                                            <div class="sw-backtopage"><a href="#" id="prevBtn"
+                                                    onclick="nextPrev(-1)"><img src="images/icons/ico-chevron.svg"
+                                                        class="pr-2">
+                                                    Go Back</a></div>
                                             <button type="button" class="btn btn-primary" id="nextBtn"
                                                 onclick="nextPrev(1)" class="float-right">Next</button>
                                         </div>
@@ -130,8 +147,10 @@ include 'navbar.php';
                                 <div class="row py-4">
                                     <div class="sw-action col-md-12">
                                         <div class="sw-btn-group mx-1">
-                                            <button type="button" class="btn btn-default" id="prevBtn"
-                                                onclick="nextPrev(-1)">Previous</button>
+                                            <div class="sw-backtopage"><a href="#" id="prevBtn"
+                                                    onclick="nextPrev(-1)"><img src="images/icons/ico-chevron.svg"
+                                                        class="pr-2">
+                                                    Go Back</a></div>
                                             <button type="button" class="btn btn-primary" id="nextBtn"
                                                 onclick="nextPrev(1)" class="float-right">Next</button>
                                         </div>
@@ -139,14 +158,89 @@ include 'navbar.php';
                                 </div>
                             </div>
 
-                            <div class="tab col-lg-offset-3 col-lg-6 col-md-offset-2 col-md-8 col-sm-12 col-xs-12 p-0">
-                                hghg
+                            <div class="tab col-sm-12 col-xs-12">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-2">
+                                        <div class="m-auto sw-pro-details text-center text-md-left">
+                                            <img src="./images/print-mockup.png" alt="print mock">
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="col-xs-12 col-sm-12 col-md-9 col-lg-10 sw-formarea text-center text-md-left">
+                                        <div>
+                                            <h4 class="sw-pro-label">Women’s Ringer T-Shirt</h4>
+                                        </div>
+                                        <div class="sw-form">
+                                            <form>
+                                                <div class="form-group">
+                                                    <div class="select-wrapper">
+                                                        <label class="control-label font-weight-normal"
+                                                            for="addstorehubg">Pick a storehub you
+                                                            want to keep this product in ?
+                                                            <span class="text-danger"> * </span>
+                                                        </label>
+                                                        <select class="form-control" id="addstorehub" name="addstorehub"
+                                                            onchange="adSelectCheck(this);">
+                                                            <option data-index="1" value="nothing">Make your
+                                                                choice..
+                                                            </option>
+                                                            <option id="adStorehubProduct" value="">Jenny and Jill
+                                                                clothing</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group" id="adStore" style="display:none;">
+                                                    <div class="">
+                                                        <div class="border-bottom">
+                                                            <div class="mb-3">Publish this product to your stores
+                                                            </div>
+                                                        </div>
+                                                        <div class="row py-3 border-bottom">
+                                                            <div class="col-md-6">
+                                                                <div class="pull-left d-inline">
+                                                                    <img src="./images/logo/shopify.png" alt="logo"
+                                                                        height="40">
+                                                                    <span class="ml-3"><b>Shopify</b></span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="pull-right d-inline">
+                                                                    <a class="btn btn-default mr-2 w-auto"
+                                                                        href="#">Publish</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row py-3 border-bottom">
+                                                            <div class="col-md-6">
+                                                                <div class="pull-left d-inline">
+                                                                    <img src="./images/logo/etsy.png" alt="logo"
+                                                                        height="40">
+                                                                    <span class="ml-3"><b>Etsy</b></span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="pull-right d-inline">
+                                                                    <a class="btn btn-default mr-2 w-auto"
+                                                                        href="#">Publish</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
 
-                                <div class="row border-top py-5 px-0 px-sm-4 mx-1">
+                                <div class="row py-5 px-0 px-sm-4 mx-1">
                                     <div class="sw-action col-md-12">
                                         <div class="sw-btn-group py-0 px-0">
-                                            <button type="button" class="btn btn-default" id="prevBtn"
-                                                onclick="nextPrev(-1)">Previous</button>
+                                            <div class="sw-backtopage"><a href="#" id="prevBtn"
+                                                    onclick="nextPrev(-1)"><img src="images/icons/ico-chevron.svg"
+                                                        class="pr-2">
+                                                    Go Back</a></div>
+                                            <!-- <button type="button" class="btn btn-default" id="prevBtn"
+                                                onclick="nextPrev(-1)">Previous</button> -->
                                             <button type="button" class="btn btn-primary" id="nextBtn"
                                                 onclick="nextPrev(1)" class="float-right">Next</button>
                                         </div>
@@ -207,7 +301,7 @@ include 'navbar.php';
         showTab(currentTab);
 
         var elem = document.getElementById("progressbar");
-        var width = 33;
+        var width = 44;
 
         if (-1 == n) {
             step = step - 1;
@@ -218,9 +312,9 @@ include 'navbar.php';
         if (step == 1 && n == -1) {
             curWidth = 2;
         } else if (step == 2 && n == -1) {
-            curWidth = 33;
+            curWidth = 44;
         } else if (step == 3 && n == -1) {
-            curWidth = 66;
+            curWidth = 55;
         }
 
         elem.style.width = curWidth + '%';
@@ -265,6 +359,23 @@ include 'navbar.php';
         document.getElementById('asgnmnt_file_img').src = window.URL.createObjectURL(inputData.files[0])
     }
 </script>
+
+<!-- Show Hide In Enter Store Field -->
+<script>
+    function adSelectCheck(nameSelect) {
+        if (nameSelect) {
+            StorehubProductValue = document.getElementById("adStorehubProduct").value;
+            if (StorehubProductValue == nameSelect.value) {
+                document.getElementById("adStore").style.display = "block";
+            } else {
+                document.getElementById("adStore").style.display = "none";
+            }
+        } else {
+            document.getElementById("adStore").style.display = "none";
+        }
+    }
+</script>
+<!-- Show Hide In Entry Form Field -->
 <?php
 include 'footer.php';
 ?>

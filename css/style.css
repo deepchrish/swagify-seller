@@ -6934,6 +6934,9 @@ body {
 .d-inline {
   display: inline !important;
 }
+.font-weight-normal {
+  font-weight: normal !important;
+}
 .d-flex {
   display: flex;
   align-items: center;
@@ -8839,6 +8842,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0 20px;
+  font-size: 18px;
 }
 .sw-pro-element {
   position: relative;
@@ -8868,7 +8872,6 @@ body {
 /* Mark the steps that are finished and valid: */
 .step.finish {
   opacity: 1;
-  font-weight: 500;
   color: #148c47;
 }
 .step.finish img {
@@ -9255,17 +9258,14 @@ body {
 .sw-order-soon {
   position: relative;
 }
-.sw-order-soon .btn-default {
-  padding: 10px 28px;
-}
 .sw-order-soon span {
   position: absolute;
-  top: -16%;
+  top: -28%;
   right: -1%;
   border-radius: 8.5px;
   background-color: #f49342;
   color: #fff;
-  padding: 1px 10px;
+  padding: 0 10px;
   font-size: 12px;
 }
 .sw-product-form {
@@ -9291,10 +9291,15 @@ body {
 }
 .sw-product-form .sw-product-table input {
   height: 34px;
-  width: 87px;
+  width: 87px !important;
   padding: 0 10px;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
+}
+.sw-product-form .sw-product-table .form-group {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0;
 }
 .sw-product-form .sw-pro-art-img {
   margin: 6px;
@@ -9310,6 +9315,15 @@ body {
   font-weight: 600;
   font-size: 12px;
   padding: 2px;
+}
+.sw-product-form .sw-pro-list li {
+  display: inline;
+}
+.sw-pro-details img {
+  height: 200px;
+}
+.sw-pro-label {
+  font-weight: 600;
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Medium devices (desktops, 992px and up) */
@@ -9458,6 +9472,10 @@ body {
     display: inline-block;
     margin: 0 5px;
   }
+  .sw-steps .step {
+    text-align: center;
+    font-size: 12px;
+  }
 }
 @media only screen and (max-width: 575px) {
   .w-sm-auto {
@@ -9482,10 +9500,6 @@ body {
   }
   .sw-steps ul {
     margin: 0 auto;
-  }
-  .sw-steps ul .step {
-    text-align: center;
-    font-size: 11px;
   }
   .sw-steps ul .step img {
     display: block;

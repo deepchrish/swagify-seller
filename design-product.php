@@ -51,7 +51,7 @@ include 'navbar.php';
                                                 <th class="text-uppercase">Print File
                                                 </th>
                                                 <th class="text-uppercase">Avg. Price</th>
-                                                <th class="text-uppercase">Retail price</th>
+                                                <th class="text-uppercase">Retail price <span class="text-danger">*</span></th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -94,7 +94,7 @@ include 'navbar.php';
                                                     <form class="form-inline">
                                                         <div class="form-group">
                                                             <label class="sr-only" for="amount"></label>
-                                                            <div class="input-group w-25">
+                                                            <div class="input-group">
                                                                 <div class="input-group-addon">
                                                                     <img src="./images/icons/ico-dollar.svg">
                                                                 </div>
@@ -102,7 +102,9 @@ include 'navbar.php';
                                                                     id="amount" placeholder="16.80">
                                                             </div>
                                                         </div>
+                                                        <img src="./images/icons/ico-help.svg">
                                                     </form>
+                                                    
                                                 </td>
                                             </tr>
                                         </tbody>

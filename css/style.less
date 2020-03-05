@@ -94,12 +94,18 @@ body {
 .d-inline {
     display: inline !important;
 }
-.font-weight-normal{
+
+.font-weight-normal {
     font-weight: normal !important;
 }
+
 .d-flex {
     display: flex;
     align-items: center;
+}
+
+.w-20 {
+    width: 20% !important;
 }
 
 .w-25 {
@@ -3128,38 +3134,49 @@ body {
     }
 
     .sw-pro-art-img {
-        margin: 6px;
-        display: inline-grid;
         text-align: center;
+        border: 1px dashed #d9d9d9;
 
         img {
-            width: 120px;
-            height: 140px;
+            width: 100%;
+            height: 100%;
+            object-fit: scale-down;
+            display: block;
+            min-width: 50px;
         }
 
         span {
             background-color: #e0e0e0;
             font-weight: 600;
             font-size: 12px;
-            padding: 2px;
+            padding: 0;
+            display: block;
         }
     }
-    .sw-pro-list{
-        li{
+
+    .sw-pro-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0.5rem;
+
+        li {
             display: inline;
         }
     }
 }
+
 //Step 3
 
-.sw-pro-details{
-    img{
+.sw-pro-details {
+    img {
         height: 200px;
     }
 }
-.sw-pro-label{
+
+.sw-pro-label {
     font-weight: 600;
 }
+
 //Create Product CSS END
 
 
@@ -3384,8 +3401,9 @@ body {
             margin: 0 5px;
         }
     }
-    .sw-steps{
-        .step{
+
+    .sw-steps {
+        .step {
             text-align: center;
             font-size: 12px;
         }
@@ -3460,6 +3478,18 @@ body {
         span {
             right: 18%;
         }
+    }
+
+    #prevBtn {
+        float: none !important;
+    }
+
+    #nextBtn {
+        float: none !important;
+    }
+
+    .sw-btn-group {
+        text-align: center;
     }
 }
 

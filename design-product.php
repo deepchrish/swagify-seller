@@ -81,26 +81,83 @@ include 'navbar.php';
                                                             </div>
                                                         </div>
                                                     </td>
-                                                    <td class="w-25">
-                                                        <div class="d-flex">
-                                                            <ul class="list-unstyled sw-pro-list">
-                                                                <li>
-                                                                    <div class="sw-pro-art-img">
-                                                                        <img src="./images/front-print-mock.png"
-                                                                            alt="print mock">
-                                                                        <span>Front</span>
-                                                                    </div>
-                                                                </li>
-                                                                <li>
-                                                                    <div class="sw-pro-art-img">
-                                                                        <img src="./images/print-mockup.png"
-                                                                            alt="print mock">
-                                                                        <span>Mockup</span>
-                                                                    </div>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
+                                                    <td class="w-20">
+                                                        <!-- <ul class="list-unstyled sw-pro-list">
+                                                            <li>
+                                                                <div class="sw-pro-art-img">
+                                                                    <img class="img-responsive"
+                                                                        src="./images/front-print-mock.png"
+                                                                        alt="print mock">
+                                                                    <span>Front</span>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="sw-pro-art-img">
+                                                                    <img class="img-responsive"
+                                                                        src="./images/print-mockup.png"
+                                                                        alt="print mock">
+                                                                    <span>Mockup</span>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="sw-pro-art-img">
+                                                                    <img class="img-responsive"
+                                                                        src="./images/front-print-mock.png"
+                                                                        alt="print mock">
+                                                                    <span>Front</span>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="sw-pro-art-img">
+                                                                    <img class="img-responsive"
+                                                                        src="./images/print-mockup.png"
+                                                                        alt="print mock">
+                                                                    <span>Mockup</span>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="sw-pro-art-img">
+                                                                    <img class="img-responsive"
+                                                                        src="./images/front-print-mock.png"
+                                                                        alt="print mock">
+                                                                    <span>Front</span>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="sw-pro-art-img">
+                                                                    <img class="img-responsive"
+                                                                        src="./images/print-mockup.png"
+                                                                        alt="print mock">
+                                                                    <span>Mockup</span>
+                                                                </div>
+                                                            </li>
 
+                                                        </ul> -->
+                                                        <div class="sw-pro-list">
+                                                            <figure class="sw-pro-art-img">
+                                                                <img class="img-responsive"
+                                                                    src="./images/front-print-mock.png"
+                                                                    alt="print mock">
+                                                                <span>Front</span>
+                                                            </figure>
+                                                            <figure class="sw-pro-art-img">
+                                                                <img class="img-responsive"
+                                                                    src="./images/print-mockup.png" alt="print mock">
+                                                                <span>Mockup</span>
+                                                            </figure>
+                                                            <figure class="sw-pro-art-img">
+                                                                <img class="img-responsive"
+                                                                    src="./images/front-print-mock.png"
+                                                                    alt="print mock">
+                                                                <span>Front</span>
+                                                            </figure>
+                                                            <figure class="sw-pro-art-img">
+                                                                <img class="img-responsive"
+                                                                    src="./images/print-mockup.png" alt="print mock">
+                                                                <span>Mockup</span>
+                                                            </figure>
+
+                                                        </div>
                                                     </td>
                                                     <td><b>$6.95 to $13.80</b></td>
                                                     <td>
@@ -135,7 +192,7 @@ include 'navbar.php';
                                                         class="pr-2">
                                                     Go Back</a></div>
                                             <button type="button" class="btn btn-primary" id="nextBtn"
-                                                onclick="nextPrev(1)" class="float-right">Next</button>
+                                                onclick="nextPrev(1)" class="">Next</button>
                                         </div>
                                     </div>
                                 </div>
@@ -152,7 +209,7 @@ include 'navbar.php';
                                                         class="pr-2">
                                                     Go Back</a></div>
                                             <button type="button" class="btn btn-primary" id="nextBtn"
-                                                onclick="nextPrev(1)" class="float-right">Next</button>
+                                                onclick="nextPrev(1)" class="">Next</button>
                                         </div>
                                     </div>
                                 </div>
@@ -172,12 +229,12 @@ include 'navbar.php';
                                         </div>
                                         <div class="sw-form">
                                             <form>
+                                                Pick a storehub you want to keep this product in ?
+                                                <span class="text-danger"> * </span>
                                                 <div class="form-group">
                                                     <div class="select-wrapper">
                                                         <label class="control-label font-weight-normal"
-                                                            for="addstorehubg">Pick a storehub you
-                                                            want to keep this product in ?
-                                                            <span class="text-danger"> * </span>
+                                                            for="addstorehubg">
                                                         </label>
                                                         <select class="form-control" id="addstorehub" name="addstorehub"
                                                             onchange="adSelectCheck(this);">
@@ -242,7 +299,7 @@ include 'navbar.php';
                                             <!-- <button type="button" class="btn btn-default" id="prevBtn"
                                                 onclick="nextPrev(-1)">Previous</button> -->
                                             <button type="button" class="btn btn-primary" id="nextBtn"
-                                                onclick="nextPrev(1)" class="float-right">Next</button>
+                                                onclick="nextPrev(1)" class="">Finish</button>
                                         </div>
                                     </div>
                                 </div>

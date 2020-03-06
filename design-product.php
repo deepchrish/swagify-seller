@@ -43,7 +43,7 @@ include 'navbar.php';
                                 <div>
                                     <!-- Table START-->
                                     <div class="table-responsive">
-                                        <table class="table table-hover sw-pro-table mb-0">
+                                        <table class="table table-hover sw-product-table mb-0">
                                             <thead>
                                                 <tr>
                                                     <th></th>
@@ -51,7 +51,7 @@ include 'navbar.php';
                                                     </th>
                                                     <th class="text-uppercase">Print File
                                                     </th>
-                                                    <th class="text-uppercase">Avg. Price</th>
+                                                    <th class="text-uppercase">Price Range</th>
                                                     <th class="text-uppercase">Retail price <span
                                                             class="text-danger">*</span></th>
                                                 </tr>
@@ -66,17 +66,18 @@ include 'navbar.php';
                                                             <a href="#"><img src="./images/women-white-t-shirt.png"
                                                                     alt="white"></a>
                                                             <div class="ml-4 mb-4"> <a href="#"
-                                                                    class="sw-text-dark"><span>
-                                                                        Unisex Ringer Tee
-                                                                    </span></a><br>
+                                                                    class="sw-text-dark"><h5>
+                                                                    Unisex Ringer Tee
+                                                                    </h5></a>
                                                                 <span class="sw-text-muted">Generic brand PC54R
                                                                 </span><br>
                                                                 T-Shirt by Canadian Apparel <br>
-                                                                <span class="sw-text-muted"> Color: <small
+                                                                <span class="sw-text-muted"> Color: </span> <small
                                                                         class="small-color-circle"
-                                                                        style="background: #100c0c;"></small></span> Dark
-                                                                    Grey<br>
-                                                                    <span class="sw-text-muted">Size: </span> Medium
+                                                                        style="background: #100c0c;"></small>Dark
+                                                                    Grey <br>
+                                                                     <span class="sw-text-muted">Size:</span> 
+                                                                        Meduim
                                                             </div>
                                                         </div>
                                                     </td>
@@ -130,7 +131,6 @@ include 'navbar.php';
                                                                     <span>Mockup</span>
                                                                 </div>
                                                             </li>
-
                                                         </ul> -->
                                                         <div class="sw-pro-list">
                                                             <figure class="sw-pro-art-img">
@@ -176,6 +176,7 @@ include 'navbar.php';
                                                             data-toggle="tooltip" data-placement="top" title="Help">
                                                     </td>
                                                 </tr>
+
                                             </tbody>
                                         </table>
                                     </div>
@@ -215,13 +216,13 @@ include 'navbar.php';
 
                             <div class="tab col-sm-12 col-xs-12">
                                 <div class="row">
-                                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-2">
+                                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2">
                                         <div class="m-auto sw-pro-details text-center text-md-left">
-                                            <img src="./images/print-mockup.png" alt="print mock">
+                                            <img src="./images/print-mockup.png" alt="print mock" class="img-responsive">
                                         </div>
                                     </div>
                                     <div
-                                        class="col-xs-12 col-sm-12 col-md-9 col-lg-10 sw-formarea text-center text-md-left">
+                                        class="col-xs-12 col-sm-9 col-md-9 col-lg-10 sw-formarea text-center text-md-left">
                                         <div>
                                             <h4 class="sw-pro-label">Women’s Ringer T-Shirt</h4>
                                         </div>
@@ -239,42 +240,41 @@ include 'navbar.php';
                                                             <option data-index="1" value="nothing">Make your
                                                                 choice..
                                                             </option>
-                                                            <option id="adStorehubProduct" value="">Jenny and Jill
+                                                            <option data-index="2" id="adStorehubProduct" value="JennyandJillclothing">Jenny and Jill
                                                                 clothing</option>
                                                         </select>
                                                     </div>
                                                 </div>
                                                 <div class="form-group" id="adStore" style="display:none;">
-                                                    <div class="">
+                                                    <div>
                                                         <div class="border-bottom">
-                                                            <div class="mb-3">Publish this product to your stores
-                                                            </div>
+                                                            <div class="mb-3">Publish this product to your stores </div>
                                                         </div>
-                                                        <div class="row py-3 border-bottom">
+                                                        <div class="row py-3 border-bottom sw-store-list">
                                                             <div class="col-md-6">
-                                                                <div class="pull-left d-inline">
-                                                                    <img src="./images/logo/shopify.png" alt="logo"
+                                                                <div class="pull-left">
+                                                                    <img src="./images/logo/shopify.png" alt="logo" 
                                                                         height="40">
-                                                                    <span class="ml-3"><b>Shopify</b></span>
+                                                                    <span class="ml-3">Shopify</span>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-6">
-                                                                <div class="pull-right d-inline">
+                                                                <div class="pull-right">
                                                                     <a class="btn btn-default mr-2 w-auto"
                                                                         href="#">Publish</a>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="row py-3 border-bottom">
+                                                        <div class="row py-3 border-bottom sw-store-list">
                                                             <div class="col-md-6">
-                                                                <div class="pull-left d-inline">
+                                                                <div class="pull-left">
                                                                     <img src="./images/logo/etsy.png" alt="logo"
                                                                         height="40">
-                                                                    <span class="ml-3"><b>Etsy</b></span>
+                                                                    <span class="ml-3">Etsy</span>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-6">
-                                                                <div class="pull-right d-inline">
+                                                                <div class="pull-right">
                                                                     <a class="btn btn-default mr-2 w-auto"
                                                                         href="#">Publish</a>
                                                                 </div>

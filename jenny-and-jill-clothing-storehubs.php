@@ -44,18 +44,17 @@ include 'navbar.php';
                     <a class="viewall" href="#" data-toggle="tooltip" data-html="true" data-placement="top"
                       title="Amazon <br> Shopify">+2 more</a>
 
-                      <div class="dropdown sw-custm-dropdown">
-                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
-                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                      <img src="./images/icons/ico-settings.svg" class="img-responsive mr-2 d-inline" alt="settings icon">
-                      Settings
-                      <span class="caret ml-2"></span>
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                      <li><a href="#">Store settings</a></li>
-                      <li><a href="#">Storehub settings</a></li>
-                    </ul>
-                  </div>
+                    <div class="btn-group mr-0 mr-sm-2">
+                      <button type="button" class="btn btn-default dropdown-toggle sw-custm-dropdown w-auto"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="./images/icons/ico-settings.svg" class="img-responsive mr-2" alt="settings icon">
+                        Settings <span class="caret ml-2"></span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Storehub settings</a></li>
+                        <li><a href="#">Store settings</a></li>
+                      </ul>
+                    </div>
                     <a class="btn btn-primary sw-plus-ico pl-4 pr-5 py-2 w-auto" href="storehub-manage-stores.php" target="_blank">
                       <img src="./images/icons/ico-plus.svg" class="img-responsive mr-3" alt="plus icon">
                       Store

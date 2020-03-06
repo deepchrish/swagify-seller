@@ -86,7 +86,6 @@ include 'navbar.php';
 
           <hr class="mt-0 mb-0">
 
-
           <!-- Table START -->
           <div class="row">
             <div class="col-md-12">

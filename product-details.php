@@ -141,8 +141,8 @@ include 'navbar.php';
                   <li>There should only be 5 Key features.</li>
                 </ul>
               </div>
-              <div class="">
-                <a class="btn btn-primary mr-3 mt-4" href="#">Design Yours</a>
+              <div class="sw-pro-btn-group">
+                <a class="btn btn-primary mr-sm-3 mt-4" href="#">Design Yours</a>
                 <a class="btn btn-default mt-4" href="#">Order Samples</a>
               </div>
             </div>

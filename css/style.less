@@ -2299,7 +2299,7 @@ body {
             content: '\F35D';
             font-size: 24px;
             position: absolute;
-            top: 32px;
+            top: 30px;
             right: 8px;
             color: #006fbb;
             pointer-events: none;
@@ -2596,6 +2596,7 @@ body {
 
         #prevBtn {
             float: left;
+            margin: 10px 0;
         }
 
         #nextBtn {
@@ -3102,8 +3103,9 @@ body {
 
 //product empty state CSS END
 
-//Create Product CSS START
+//Design Product CSS START
 
+//Step-1
 .sw-product-form {
     margin: 0 auto;
 
@@ -3114,8 +3116,26 @@ body {
     }
 
     .sw-product-table {
+        thead>tr>th {
+            padding: 12px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+
         tbody>tr>td {
             line-height: 1.828571;
+            padding: 12px;
+
+            h5 {
+                font-size: 16px;
+                font-weight: 600;
+                margin-bottom: 6px;
+            }
+        }
+
+        tbody>tr>td:nth-child(4) {
+            font-size: 16px;
+            font-weight: 500;
         }
 
         tbody>tr>td:first-child {
@@ -3123,17 +3143,17 @@ body {
         }
 
         .input-group-addon {
-            padding: 0px 12px;
-            height: 34px;
+            padding: 0 12px;
+            height: 36px;
             background: none;
             border-top-left-radius: 3px;
             border-bottom-left-radius: 3px;
         }
 
         input {
-            height: 34px;
+            height: 36px;
             width: 87px !important;
-            padding: 0 10px;
+            padding: 0 8px;
             border-top-right-radius: 3px;
             border-bottom-right-radius: 3px;
         }
@@ -3143,41 +3163,61 @@ body {
             vertical-align: middle;
             margin-bottom: 0;
         }
-    }
-
-    .sw-pro-art-img {
-        text-align: center;
-        border: 1px dashed #d9d9d9;
-
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: scale-down;
-            display: block;
-            min-width: 50px;
+        .sw-pro-art-img {
+            text-align: center;
+            border: 1px dashed #d9d9d9;
+    
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: scale-down;
+                display: block;
+                min-width: 50px;
+            }
+    
+            span {
+                background-color: #e0e0e0;
+                font-weight: 600;
+                font-size: 12px;
+                padding: 0;
+                display: block;
+            }
         }
-
-        span {
-            background-color: #e0e0e0;
-            font-weight: 600;
-            font-size: 12px;
-            padding: 0;
-            display: block;
-        }
-    }
-
-    .sw-pro-list {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 0.5rem;
-
-        li {
-            display: inline;
+    
+        .sw-pro-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 0.5rem;
+    
+            li {
+                display: inline;
+            }
         }
     }
 }
 
-//Create Product CSS END
+//Step-3
+
+.sw-pro-details {
+    img {
+        min-height: 204px;
+        width: 100%;
+    }
+}
+
+.sw-pro-label {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sw-store-list {
+    span {
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+
+//Design Product CSS END
 
 // product catalogue CSS START
 .sw-selectors {
@@ -3427,6 +3467,39 @@ body {
 // product catalogue CSS END
 
 
+//Product detail republish
+.sw-custm-alert {
+    padding-top: 55px;
+
+    .alert-success {
+        background: #008060;
+        color: #ffffff;
+
+        img {
+            filter: brightness(15);
+        }
+    }
+}
+.sw-prod-name{
+    font-size: 16px;
+}
+
+.sw-stores{
+    .sw-store-list {
+        span {
+            font-size: 14px;
+            font-weight: 500;
+        }
+        // .btn-default{
+        //     background: #27ae60;
+        // }
+    }
+    .btn-default{
+        font-size: 14px;
+    }
+}
+
+
 //RESPONSIVE CSS START
 @media only screen and (min-width: 768px) {}
 
@@ -3655,6 +3728,20 @@ body {
             font-size: 12px;
         }
     }
+
+    .sw-pro-details {
+        img {
+            width: auto;
+            margin: 0 auto;
+        }
+    }
+    .sw-action{
+        .sw-btn-group {
+            .btn-primary{
+                width: auto;
+            }
+        }
+    }
 }
 
 @media only screen and (max-width: 575px) {
@@ -3743,16 +3830,8 @@ body {
         }
     }
 
-    #prevBtn {
-        float: none !important;
-    }
-
-    #nextBtn {
-        float: none !important;
-    }
-
-    .sw-btn-group {
-        text-align: center;
+    .sw-store-list span {
+        font-size: 16px;
     }
 }
 

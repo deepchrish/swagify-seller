@@ -43,7 +43,7 @@ include 'navbar.php';
                                 <div>
                                     <!-- Table START-->
                                     <div class="table-responsive">
-                                        <table class="table table-hover sw-product-table mb-0">
+                                        <table class="table table-hover sw-pro-table mb-0">
                                             <thead>
                                                 <tr>
                                                     <th></th>
@@ -67,17 +67,16 @@ include 'navbar.php';
                                                                     alt="white"></a>
                                                             <div class="ml-4 mb-4"> <a href="#"
                                                                     class="sw-text-dark"><span>
-                                                                        <b>Unisex Ringer Tee</b>
+                                                                        Unisex Ringer Tee
                                                                     </span></a><br>
                                                                 <span class="sw-text-muted">Generic brand PC54R
                                                                 </span><br>
                                                                 T-Shirt by Canadian Apparel <br>
                                                                 <span class="sw-text-muted"> Color: <small
                                                                         class="small-color-circle"
-                                                                        style="background: #100c0c;"></small>Dark
-                                                                    Grey</span> <br>
-                                                                <span class="sw-text-muted">Size: <small>
-                                                                        Meduim</small></span>
+                                                                        style="background: #100c0c;"></small></span> Dark
+                                                                    Grey<br>
+                                                                    <span class="sw-text-muted">Size: </span> Medium
                                                             </div>
                                                         </div>
                                                     </td>
@@ -159,7 +158,7 @@ include 'navbar.php';
 
                                                         </div>
                                                     </td>
-                                                    <td><b>$6.95 to $13.80</b></td>
+                                                    <td>$6.95 to $13.80</td>
                                                     <td>
                                                         <form class="form-inline">
                                                             <div class="form-group mr-2">
@@ -177,14 +176,13 @@ include 'navbar.php';
                                                             data-toggle="tooltip" data-placement="top" title="Help">
                                                     </td>
                                                 </tr>
-
                                             </tbody>
                                         </table>
                                     </div>
                                     <!-- Table END -->
                                 </div>
 
-                                <div class="row py-4">
+                                <div class="form-row py-4">
                                     <div class="sw-action col-md-12">
                                         <div class="sw-btn-group">
                                             <div class="sw-backtopage"><a href="#" id="prevBtn"

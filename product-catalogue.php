@@ -18,20 +18,20 @@ include 'navbar.php';
         <div class="bg-white box-shadow b-radius-3 p-4 mb-4 w-100">
           <div class="row">
             <div class=col-md-9>
-              <h5>All products</h5>
+              <h4>All products</h4>
             </div>
             <div class=col-md-3>
               <div class="form-inline sw-search-input">
                 <div class="form-group search-icon">
-                  <label class=" sr-only" for="search"></label>
+                  <label class="sr-only" for="search"></label>
                   <input type="Search" class="form-control" id="search" placeholder="Search Products">
                 </div>
               </div>
             </div>
           </div>
-          <hr>
+          <hr class="hidden-xs">
           <div class="row">
-            <div class="col-md-3 border-right">
+            <div class="col-lg-3 col-md-3 col-sm-12 hidden-xs border-right">
               <div class="sw-selectors">
                 <a class="text-uppercase sw-pro-filter-btn" role="button" data-toggle="collapse" href="#collapseExample"
                   aria-expanded="true" aria-controls="collapseExample">
@@ -185,70 +185,249 @@ include 'navbar.php';
                 </div>
               </div>
             </div>
-            <div class="col-md-9">
+            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
               <div class="row">
-                <div class="col-md-3 px-2 mt-2">
+                <div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 px-2 mt-2 mb-3">
                   <div class="card">
                     <div class="se-pro-img">
                       <button class="heart">
-    <div class="heart-flip"></div>
-</button>
-                      <img class="img-responsive" src="images/white-t-shirt.jpg">
+                        <div class="heart-flip"></div>
+                      </button>
+                      <a href="mens-cotton-crew-tee.php"><img class="img-responsive" src="images/grey-t-shirt.jpg"></a>
                       <a class="sw-design-pro" href="#">Design Yours</a>
                     </div>
 
                     <div class="sw-pro-short-details">
-                      <h5 class="mb-1"><a href="#">Men's Cotton Crew Tee</a></h5>
+                      <h5 class="mb-1"><a href="mens-cotton-crew-tee.php" target="_blank">Men's Cotton Crew Tee</a></h5>
                       <small><span class="sw-text-muted mr-2">By</span><a href="#">Canadian Apparel</a></span></small>
                       <div class="text-primary">From $12.00 to $16.00</div>
                       <small class="sw-text-muted">8 Sizes • 16 Colors</small>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-3 px-2 mt-2">
+                <div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 px-2 mt-2 mb-3">
                   <div class="card">
-                    <a href="#">
-                      <div class="se-pro-img">
-                        <img class="img-responsive" src="images/women-white-t-shirt.png">
+                    <div class="se-pro-img">
+                      <button class="heart">
+                        <div class="heart-flip"></div>
+                      </button>
+                      <a href="#" class="sw-premium-btn"><img class="img-responsive" src="images/icons/ico-premuim.svg"
+                          alt="crown" title="crown">Premium</a>
+                      <a href="mens-cotton-crew-tee.php"><img class="img-responsive"
+                          src="images/women-white-t-shirt.png"></a>
+                      <a class="sw-design-pro" href="#">Design Yours</a>
+                    </div>
 
-                      </div>
-                      <div class="sw-pro-short-details">
-                        <h5 class="mb-1"><a href="#">Men's Cotton Crew Tee</a></h5>
-                        <small><span class="sw-text-muted mr-2">By</span><a href="#">Canadian Apparel</a></span></small>
-                        <div class="text-primary">From $12.00 to $16.00</div>
-                        <small class="sw-text-muted">8 Sizes • 16 Colors</small>
-                      </div>
-                    </a>
+                    <div class="sw-pro-short-details">
+                      <h5 class="mb-1"><a href="mens-cotton-crew-tee.php" target="_blank">Unisex Jersey Short Sleeve
+                          Tee</a></h5>
+                      <small><span class="sw-text-muted mr-2">By</span><a href="#">Bella+Canvas 3001</a></span></small>
+                      <div class="text-primary">From $6.95 to $13.80</div>
+                      <small class="sw-text-muted">8 Sizes • 12 Colors</small>
+                    </div>
                   </div>
                 </div>
-                <div class="col-md-3 px-2 mt-2">
+                <div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 px-2 mt-2 mb-3">
                   <div class="card">
-                    <a href="#">
-                      <div class="se-pro-img">
-                        <img class="img-responsive" src="images/grey-t-shirt.jpg">
-                      </div>
-                      <div class="sw-pro-short-details">
-                        <h5 class="mb-1">Men's Cotton Crew Tee</h5>
-                        <small><span class="sw-text-muted mr-2">By</span><span>Canadian Apparel</span></small>
-                        <div class="text-primary">From $12.00 to $16.00</div>
-                        <small class="sw-text-muted">8 Sizes • 16 Colors</small>
-                      </div>
-                    </a>
+                    <div class="se-pro-img">
+                      <button class="heart">
+                        <div class="heart-flip"></div>
+                      </button>
+                      <a href="#" class="sw-premium-btn"><img class="img-responsive" src="images/icons/ico-premuim.svg"
+                          alt="crown" title="crown">Premium</a>
+                      <a href="mens-cotton-crew-tee.php"><img class="img-responsive"
+                          src="images/women-pink-tees.jpg"></a>
+                      <a class="sw-design-pro" href="#">Design Yours</a>
+                    </div>
+
+                    <div class="sw-pro-short-details">
+                      <h5 class="mb-1"><a href="mens-cotton-crew-tee.php" target="_blank">Unisex Zip Up Hoodie</a></h5>
+                      <small><span class="sw-text-muted mr-2">By</span><a href="#">Stanley Stella
+                          STTM528</a></span></small>
+                      <div class="text-primary">From $12.04 to $18.40</div>
+                      <small class="sw-text-muted">8 Sizes • 14 Colors</small>
+                    </div>
                   </div>
                 </div>
-                <div class="col-md-3 px-2 mt-2">
+                <div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 px-2 mt-2 mb-3">
                   <div class="card">
-                    <a href="#">
-                      <div class="se-pro-img">
-                        <img class="img-responsive" src="images/singup-bg-original.png">
-                      </div>
-                      <div class="sw-pro-short-details">
-                        <h5 class="mb-1">Men's Cotton Crew Tee</h5>
-                        <small><span class="sw-text-muted mr-2">By</span><span>Canadian Apparel</span></small>
-                        <div class="text-primary">From $12.00 to $16.00</div>
-                        <small class="sw-text-muted">8 Sizes • 16 Colors</small>
-                      </div>
-                    </a>
+                    <div class="se-pro-img">
+                      <button class="heart">
+                        <div class="heart-flip"></div>
+                      </button>
+                      <a href="mens-cotton-crew-tee.php"><img class="img-responsive" src="images/white-t-shirt.jpg"></a>
+                      <a class="sw-design-pro" href="#">Design Yours</a>
+                    </div>
+
+                    <div class="sw-pro-short-details">
+                      <h5 class="mb-1"><a href="mens-cotton-crew-tee.php" target="_blank">Men's Jersey Polo Shirt</a>
+                      </h5>
+                      <small><span class="sw-text-muted mr-2">By</span><a href="#">Gildan 8800 </a></span></small>
+                      <div class="text-primary">From $12.00 to $16.00</div>
+                      <small class="sw-text-muted">8 Sizes • 13 Colors</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 px-2 mt-2 mb-3">
+                  <div class="card">
+                    <div class="se-pro-img">
+                      <button class="heart">
+                        <div class="heart-flip"></div>
+                      </button>
+                      <a href="mens-cotton-crew-tee.php"><img class="img-responsive" src="images/black-t-shirt.jpg"></a>
+                      <a class="sw-design-pro" href="#">Design Yours</a>
+                    </div>
+
+                    <div class="sw-pro-short-details">
+                      <h5 class="mb-1"><a href="mens-cotton-crew-tee.php" target="_blank">Men's Cotton Crew Tee</a></h5>
+                      <small><span class="sw-text-muted mr-2">By</span><a href="#">Canadian Apparel</a></span></small>
+                      <div class="text-primary">From $12.00 to $16.00</div>
+                      <small class="sw-text-muted">8 Sizes • 16 Colors</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 px-2 mt-2 mb-3">
+                  <div class="card">
+                    <div class="se-pro-img">
+                      <button class="heart">
+                        <div class="heart-flip"></div>
+                      </button>
+                      <a href="#" class="sw-premium-btn"><img class="img-responsive" src="images/icons/ico-premuim.svg"
+                          alt="crown" title="crown">Premium</a>
+                      <a href="mens-cotton-crew-tee.php"><img class="img-responsive" src="images/grey.png"></a>
+                      <a class="sw-design-pro" href="#">Design Yours</a>
+                    </div>
+
+                    <div class="sw-pro-short-details">
+                      <h5 class="mb-1"><a href="mens-cotton-crew-tee.php" target="_blank">Unisex Jersey Short Sleeve
+                          Tee</a></h5>
+                      <small><span class="sw-text-muted mr-2">By</span><a href="#">Bella+Canvas 3001</a></span></small>
+                      <div class="text-primary">From $6.95 to $13.80</div>
+                      <small class="sw-text-muted">8 Sizes • 12 Colors</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 px-2 mt-2 mb-3">
+                  <div class="card">
+                    <div class="se-pro-img">
+                      <button class="heart">
+                        <div class="heart-flip"></div>
+                      </button>
+                      <a href="#" class="sw-premium-btn"><img class="img-responsive" src="images/icons/ico-premuim.svg"
+                          alt="crown" title="crown">Premium</a>
+                      <a href="mens-cotton-crew-tee.php"><img class="img-responsive"
+                          src="images/women-pink-tees.jpg"></a>
+                      <a class="sw-design-pro" href="#">Design Yours</a>
+                    </div>
+
+                    <div class="sw-pro-short-details">
+                      <h5 class="mb-1"><a href="mens-cotton-crew-tee.php" target="_blank">Unisex Zip Up Hoodie</a></h5>
+                      <small><span class="sw-text-muted mr-2">By</span><a href="#">Stanley Stella
+                          STTM528</a></span></small>
+                      <div class="text-primary">From $12.04 to $18.40</div>
+                      <small class="sw-text-muted">8 Sizes • 14 Colors</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 px-2 mt-2 mb-3">
+                  <div class="card">
+                    <div class="se-pro-img">
+                      <button class="heart">
+                        <div class="heart-flip"></div>
+                      </button>
+                      <a href="mens-cotton-crew-tee.php"><img class="img-responsive" src="images/white-t-shirt.jpg"></a>
+                      <a class="sw-design-pro" href="#">Design Yours</a>
+                    </div>
+
+                    <div class="sw-pro-short-details">
+                      <h5 class="mb-1"><a href="mens-cotton-crew-tee.php" target="_blank">Men's Jersey Polo Shirt</a>
+                      </h5>
+                      <small><span class="sw-text-muted mr-2">By</span><a href="#">Gildan 8800 </a></span></small>
+                      <div class="text-primary">From $12.00 to $16.00</div>
+                      <small class="sw-text-muted">8 Sizes • 13 Colors</small>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 px-2 mt-2 mb-3">
+                  <div class="card">
+                    <div class="se-pro-img">
+                      <button class="heart">
+                        <div class="heart-flip"></div>
+                      </button>
+                      <a href="mens-cotton-crew-tee.php"><img class="img-responsive" src="images/grey-t-shirt.jpg"></a>
+                      <a class="sw-design-pro" href="#">Design Yours</a>
+                    </div>
+
+                    <div class="sw-pro-short-details">
+                      <h5 class="mb-1"><a href="mens-cotton-crew-tee.php" target="_blank">Men's Cotton Crew Tee</a></h5>
+                      <small><span class="sw-text-muted mr-2">By</span><a href="#">Canadian Apparel</a></span></small>
+                      <div class="text-primary">From $12.00 to $16.00</div>
+                      <small class="sw-text-muted">8 Sizes • 16 Colors</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 px-2 mt-2 mb-3">
+                  <div class="card">
+                    <div class="se-pro-img">
+                      <button class="heart">
+                        <div class="heart-flip"></div>
+                      </button>
+                      <a href="#" class="sw-premium-btn"><img class="img-responsive" src="images/icons/ico-premuim.svg"
+                          alt="crown" title="crown">Premium</a>
+                      <a href="mens-cotton-crew-tee.php"><img class="img-responsive"
+                          src="images/women-white-t-shirt.png"></a>
+                      <a class="sw-design-pro" href="#">Design Yours</a>
+                    </div>
+
+                    <div class="sw-pro-short-details">
+                      <h5 class="mb-1"><a href="mens-cotton-crew-tee.php" target="_blank">Unisex Jersey Short Sleeve
+                          Tee</a></h5>
+                      <small><span class="sw-text-muted mr-2">By</span><a href="#">Bella+Canvas 3001</a></span></small>
+                      <div class="text-primary">From $6.95 to $13.80</div>
+                      <small class="sw-text-muted">8 Sizes • 12 Colors</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 px-2 mt-2 mb-3">
+                  <div class="card">
+                    <div class="se-pro-img">
+                      <button class="heart">
+                        <div class="heart-flip"></div>
+                      </button>
+                      <a href="#" class="sw-premium-btn"><img class="img-responsive" src="images/icons/ico-premuim.svg"
+                          alt="crown" title="crown">Premium</a>
+                      <a href="mens-cotton-crew-tee.php"><img class="img-responsive"
+                          src="images/women-pink-tees.jpg"></a>
+                      <a class="sw-design-pro" href="#">Design Yours</a>
+                    </div>
+
+                    <div class="sw-pro-short-details">
+                      <h5 class="mb-1"><a href="mens-cotton-crew-tee.php" target="_blank">Unisex Zip Up Hoodie</a></h5>
+                      <small><span class="sw-text-muted mr-2">By</span><a href="#">Stanley Stella
+                          STTM528</a></span></small>
+                      <div class="text-primary">From $12.04 to $18.40</div>
+                      <small class="sw-text-muted">8 Sizes • 14 Colors</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 px-2 mt-2 mb-3">
+                  <div class="card">
+                    <div class="se-pro-img">
+                      <button class="heart">
+                        <div class="heart-flip"></div>
+                      </button>
+                      <a href="mens-cotton-crew-tee.php"><img class="img-responsive" src="images/white-t-shirt.jpg"></a>
+                      <a class="sw-design-pro" href="#">Design Yours</a>
+                    </div>
+
+                    <div class="sw-pro-short-details">
+                      <h5 class="mb-1"><a href="mens-cotton-crew-tee.php" target="_blank">Men's Jersey Polo Shirt</a>
+                      </h5>
+                      <small><span class="sw-text-muted mr-2">By</span><a href="#">Gildan 8800 </a></span></small>
+                      <div class="text-primary">From $12.00 to $16.00</div>
+                      <small class="sw-text-muted">8 Sizes • 13 Colors</small>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -260,7 +439,8 @@ include 'navbar.php';
   </div>
 </div>
 <script>
-  document.querySelectorAll('.heart').forEach(button => button.addEventListener('click', e => button.classList.toggle('active')));
+  document.querySelectorAll('.heart').forEach(button => button.addEventListener('click', e => button.classList.toggle(
+    'active')));
 </script>
 <?php
 include 'footer.php';

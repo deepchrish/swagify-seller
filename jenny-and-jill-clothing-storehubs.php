@@ -45,7 +45,7 @@ include 'navbar.php';
                       title="Amazon <br> Shopify">+2 more</a>
 
                     <div class="btn-group mr-0 mr-sm-2">
-                      <button type="button" class="btn btn-default dropdown-toggle sw-custm-dropdown"
+                      <button type="button" class="btn btn-default dropdown-toggle sw-custm-dropdown w-auto"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <img src="./images/icons/ico-settings.svg" class="img-responsive mr-2" alt="settings icon">
                         Settings <span class="caret ml-2"></span>

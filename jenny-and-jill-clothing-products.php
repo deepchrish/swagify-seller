@@ -86,7 +86,6 @@ include 'navbar.php';
 
           <hr class="mt-0 mb-0">
 
-
           <!-- Table START -->
           <div class="row">
             <div class="col-md-12">
@@ -137,7 +136,7 @@ include 'navbar.php';
                             style="background: #50b83c;"></span>Published</div> <br>
                         <div class="mt-2"><span class="mt-4">On Shopify, ETSY,
                             Prestashop <a href="#" data-toggle="tooltip" data-html="true" data-placement="top"
-                      title="Amazon <br> Shopify">+ 2 more</a></span></div>
+                              title="Amazon <br> Shopify">+ 2 more</a></span></div>
                       </td>
                       <td>
                         <div class="d-flex align-items-center">
@@ -148,20 +147,20 @@ include 'navbar.php';
                       </td>
                       <td>
                         <a href="#" class="mr-4">
-                          <img src="./images/icons/ico-edit-description.svg" class="mb-0 mb-md-4 mb-lg-4 mb-xl-0" alt="Edit description" data-toggle="tooltip"
-                            data-placement="top" title="Edit Description">
+                          <img src="./images/icons/ico-edit-description.svg" class="mb-0 mb-md-4 mb-lg-4 mb-xl-0"
+                            alt="Edit description" data-toggle="tooltip" data-placement="top" title="Edit Description">
                         </a>
                         <a href="#" class="mr-4">
-                          <img src="./images/icons/ico-brush.svg" class="sw-disabled mb-0 mb-md-4 mb-lg-4 mb-xl-0"  alt="brush" data-toggle="tooltip"
-                            data-placement="top" title="Brush">
+                          <img src="./images/icons/ico-brush.svg" class="sw-disabled mb-0 mb-md-4 mb-lg-4 mb-xl-0"
+                            alt="brush" data-toggle="tooltip" data-placement="top" title="Brush">
                         </a>
                         <a href="#" class="mr-4">
-                          <img src="./images/icons/ico-copy.svg" class="sw-disabled mb-0 mb-md-4 mb-lg-4 mb-xl-0"  alt="duplicate" data-toggle="tooltip"
-                            data-placement="top" title="Duplicate">
+                          <img src="./images/icons/ico-copy.svg" class="sw-disabled mb-0 mb-md-4 mb-lg-4 mb-xl-0"
+                            alt="duplicate" data-toggle="tooltip" data-placement="top" title="Duplicate">
                         </a>
                         <a href="#" class="">
-                          <img src="./images/icons/ico-options.svg" class="mb-0 mb-md-4 mb-lg-4 mb-xl-0" alt="options" data-toggle="tooltip"
-                            data-placement="top" title="More Options">
+                          <img src="./images/icons/ico-options.svg" class="mb-0 mb-md-4 mb-lg-4 mb-xl-0" alt="options"
+                            data-toggle="tooltip" data-placement="top" title="More Options">
                         </a>
                       </td>
                     </tr>
@@ -198,20 +197,20 @@ include 'navbar.php';
                       </td>
                       <td>
                         <a href="#" class="mr-4">
-                          <img src="./images/icons/ico-edit-description.svg" class="mb-0 mb-md-4 mb-lg-4 mb-xl-0" alt="description" data-toggle="tooltip"
-                            data-placement="top" title="Edit Description">
+                          <img src="./images/icons/ico-edit-description.svg" class="mb-0 mb-md-4 mb-lg-4 mb-xl-0"
+                            alt="description" data-toggle="tooltip" data-placement="top" title="Edit Description">
                         </a>
                         <a href="#" class="mr-4">
-                          <img src="./images/icons/ico-brush.svg" class="sw-disabled mb-0 mb-md-4 mb-lg-4 mb-xl-0" alt="brush" data-toggle="tooltip"
-                            data-placement="top" title="Brush">
+                          <img src="./images/icons/ico-brush.svg" class="sw-disabled mb-0 mb-md-4 mb-lg-4 mb-xl-0"
+                            alt="brush" data-toggle="tooltip" data-placement="top" title="Brush">
                         </a>
                         <a href="#" class="mr-4">
-                          <img src="./images/icons/ico-copy.svg" class="sw-disabled mb-0 mb-md-4 mb-lg-4 mb-xl-0" alt="copy" data-toggle="tooltip"
-                            data-placement="top" title="Copy">
+                          <img src="./images/icons/ico-copy.svg" class="sw-disabled mb-0 mb-md-4 mb-lg-4 mb-xl-0"
+                            alt="copy" data-toggle="tooltip" data-placement="top" title="Copy">
                         </a>
                         <a href="#" class="">
-                          <img src="./images/icons/ico-options.svg" class="mb-0 mb-md-4 mb-lg-4 mb-xl-0" alt="options" data-toggle="tooltip"
-                            data-placement="top" title="More Options">
+                          <img src="./images/icons/ico-options.svg" class="mb-0 mb-md-4 mb-lg-4 mb-xl-0" alt="options"
+                            data-toggle="tooltip" data-placement="top" title="More Options">
                         </a>
                       </td>
                     </tr>
@@ -248,20 +247,20 @@ include 'navbar.php';
                       </td>
                       <td>
                         <a href="#" class="mr-4">
-                          <img src="./images/icons/ico-edit-description.svg" class="mb-0 mb-md-4 mb-lg-4 mb-xl-0" alt="description" data-toggle="tooltip"
-                            data-placement="top" title="Edit Description">
+                          <img src="./images/icons/ico-edit-description.svg" class="mb-0 mb-md-4 mb-lg-4 mb-xl-0"
+                            alt="description" data-toggle="tooltip" data-placement="top" title="Edit Description">
                         </a>
                         <a href="#" class="mr-4">
-                          <img src="./images/icons/ico-brush.svg" class="sw-disabled mb-0 mb-md-4 mb-lg-4 mb-xl-0" alt="brush" data-toggle="tooltip"
-                            data-placement="top" title="Brush">
+                          <img src="./images/icons/ico-brush.svg" class="sw-disabled mb-0 mb-md-4 mb-lg-4 mb-xl-0"
+                            alt="brush" data-toggle="tooltip" data-placement="top" title="Brush">
                         </a>
                         <a href="#" class="mr-4">
-                          <img src="./images/icons/ico-copy.svg" class="sw-disabled mb-0 mb-md-4 mb-lg-4 mb-xl-0" alt="copy" data-toggle="tooltip"
-                            data-placement="top" title="Copy">
+                          <img src="./images/icons/ico-copy.svg" class="sw-disabled mb-0 mb-md-4 mb-lg-4 mb-xl-0"
+                            alt="copy" data-toggle="tooltip" data-placement="top" title="Copy">
                         </a>
                         <a href="#" class="">
-                          <img src="./images/icons/ico-options.svg"  class="mb-0 mb-md-4 mb-lg-4 mb-xl-0" alt="options" data-toggle="tooltip"
-                            data-placement="top" title="More Options">
+                          <img src="./images/icons/ico-options.svg" class="mb-0 mb-md-4 mb-lg-4 mb-xl-0" alt="options"
+                            data-toggle="tooltip" data-placement="top" title="More Options">
                         </a>
                       </td>
                     </tr>

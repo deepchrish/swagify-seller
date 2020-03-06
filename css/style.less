@@ -58,6 +58,14 @@ body {
     border-bottom: 1px solid #ecf0f1;
 }
 
+.border-right {
+    border-right: 1px solid #ecf0f1;
+}
+
+.border-left {
+    border-left: 1px solid #ecf0f1;
+}
+
 .sw-text-muted {
     color: #747d8c;
 }
@@ -2072,12 +2080,14 @@ body {
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::after {
-    content: '\2713';
+    // content: '\2713';
+    content: '\FE6E';
+    font-family: 'Material Design Icons';
     color: #ffffff;
-    font-size: 16px;
+    font-size: 15px;
     position: absolute;
-    top: -1.5px;
-    left: 2px;
+    top: -1px;
+    left: 1px;
 }
 
 .sw-colors-list {
@@ -2094,11 +2104,12 @@ body {
         }
 
         .custom-control-input:checked~.custom-control-label::after {
-            content: '\2713';
+            content: '\FE6E';
+            font-family: 'Material Design Icons';
             color: #d0d0d0;
-            font-size: 20px;
+            font-size: 16px;
             position: absolute;
-            top: -2px;
+            top: -1px;
             left: 3px;
         }
 
@@ -2682,7 +2693,7 @@ body {
 
     img {
         display: inline;
-        height: 18px;
+        height: 15px;
     }
 }
 
@@ -3146,8 +3157,229 @@ body {
     }
 }
 
-
 //Create Product CSS END
+
+// product catalogue CSS START
+.sw-selectors {
+    .sw-pro-filter-btn {
+        display: block;
+        text-align: left;
+        color: #222f3e !important;
+        font-weight: 500;
+        border: 0;
+        padding: 10px 0;
+
+        span {
+            float: right;
+            background: #000;
+            border-radius: 50%;
+            color: #fff;
+            height: 20px;
+            width: 20px;
+            text-align: center;
+        }
+
+        .mdi-plus {
+            display: none;
+        }
+
+        .mdi-minus {
+            display: block;
+        }
+
+        &:hover {
+            text-decoration: none;
+        }
+
+        &:focus {
+            text-decoration: none;
+        }
+    }
+
+    .sw-pro-filter-btn.collapsed {
+        .mdi-plus {
+            display: block;
+        }
+
+        .mdi-minus {
+            display: none;
+        }
+    }
+
+    .sw-pro-filter-list {
+        li {
+            margin: 5px 0;
+        }
+    }
+}
+
+.sw-pro-filter-list.sw-colors-list {
+    .custom-control-label {
+        margin-left: 26px;
+    }
+
+    .custom-control {
+        .box-sd-color {
+            width: 2rem;
+            height: 2rem;
+        }
+
+        .custom-control-input:checked~.custom-control-label::after {
+            font-size: 15px;
+            top: -1px;
+            left: 1px;
+        }
+    }
+
+}
+
+.card {
+    border-radius: 3px;
+    position: relative;
+
+    .se-pro-img {
+        box-shadow: 0 1px 3px 0 rgba(63, 63, 68, 0.15),
+            0 0 0 1px rgba(63, 63, 68, 0.05);
+        height: 220px;
+        position: relative;
+
+        img {
+            object-fit: cover;
+            height: 100%;
+            margin: 0 auto;
+        }
+
+        .sw-design-pro {
+            position: absolute;
+            bottom: 0;
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            background: #27ae60;
+            width: 100%;
+            color: #fff;
+            height: 0px;
+            overflow: hidden;
+            -webkit-transition: all 0.12s linear;
+            -moz-transition: all 0.12s linear;
+            -o-transition: all 0.12s linear;
+            transition: all 0.12s linear;
+        }
+    }
+
+    a {
+        height: auto;
+        text-decoration: none;
+        color: #222f3e;
+    }
+
+    .sw-pro-short-details {
+        line-height: 1.6;
+        white-space: nowrap;
+
+        h5 {
+            font-weight: 400;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+
+        .text-primary {
+            font-weight: 500;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    }
+
+    &:hover {
+        .se-pro-img {
+            .sw-design-pro {
+                // bottom: 0;
+                // z-index: 1;
+                // opacity: 1;
+                // margin-top: 221px;
+                height: 40px;
+                padding: 10px 0;
+            }
+        }
+    }
+}
+
+// heart action START
+.heart {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+
+    .heart-flip {
+        --base: 12px;
+        --duration: .6s;
+        --active: #6441a5;
+        --inactive: #d1d6ee;
+        width: var(--base);
+        height: calc(var(--base) + var(--base) / 2);
+        border-radius: calc(var(--base) / 2) calc(var(--base) / 2) 0 0;
+        position: relative;
+        transform-origin: 50% 66.66%;
+        transform-style: preserve-3d;
+        transform: rotate(var(--rotate, -45deg));
+        transition: background var(--duration), transform var(--duration) ease;
+        background: var(--heart-background, var(--inactive));
+
+        &:before,
+        &:after {
+            content: '';
+            width: calc(var(--base) / 2);
+            height: var(--base);
+            border-radius: var(--pseudo-border-radius, calc(var(--base) / 2) 0 0 calc(var(--base) / 2));
+            position: absolute;
+            left: var(--pseudo-left, -50%);
+            transform-origin: var(--pseudo-origin, 100%) 50%;
+            bottom: 0;
+            background: var(--heart-background, var(--inactive));
+            filter: brightness(var(--pseudo-filter, 50%));
+            transform: translateX(1%) rotateY(var(--pseudo-rotate, 90deg)) translateZ(0);
+            transition: background var(--duration), transform var(--duration) ease, filter var(--duration);
+        }
+
+        &:after {
+            --pseudo-border-radius: 0 calc(var(--base) / 2) calc(var(--base) / 2) 0;
+            --pseudo-left: 100%;
+            --pseudo-origin: 0;
+            filter: brightness(var(--pseudo-filter-second, 100%));
+            transform: translateX(-1%) rotateY(var(--pseudo-rotate-second, 0deg)) translateZ(0);
+        }
+    }
+
+    &.active {
+        .heart-flip {
+            --rotate: 45deg;
+            --pseudo-filter: 100%;
+            --pseudo-filter-second: 50%;
+            --pseudo-rotate: 0deg;
+            --pseudo-rotate-second: 90deg;
+            --heart-background: var(--active);
+        }
+    }
+}
+
+.heart {
+    background: none;
+    border: none;
+    padding: 0;
+    transform: scale(var(--button-scale, 1)) translateZ(0);
+    transition: transform .2s;
+
+    &:active {
+        --button-scale: .95;
+    }
+}
+
+// heart action END
+// product catalogue CSS END
 
 
 //RESPONSIVE CSS START
@@ -3435,7 +3667,17 @@ body {
     }
 }
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    .sw-premium-btn {
+        text-align: center;
+        display: block;
+        width: auto;
+    }
+
+    .sw-pro-btn-group {
+        text-align: center;
+    }
+}
 
 @media only screen and (max-width: 414px) {}
 
